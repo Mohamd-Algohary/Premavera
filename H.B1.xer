@@ -1,0 +1,492 @@
+ERMHDR	15.1	2020-05-30	Project	admin	moham	dbxDatabaseNoName	Project Management	USD
+%T	CURRTYPE
+%F	curr_id	decimal_digit_cnt	curr_symbol	decimal_symbol	digit_group_symbol	pos_curr_fmt_type	neg_curr_fmt_type	curr_type	curr_short_name	group_digit_cnt	base_exch_rate
+%R	1	2	$	.	,	#1.1	(#1.1)	US Dollar	USD	3	1
+%R	13	2	£	.	,	#1.1	(#1.1)	Pound Sterling	GBP	3	0.618603
+%R	14	2	•	.	,	#1.1	(#1.1)	Japanese Yen	JPY	3	91.2708
+%R	15	2	Ä	.	,	#1.1	(#1.1)	Euro	EUR	3	0.689711
+%R	16	2	•	.	,	#1.1	(#1.1)	Chinese Yuan Renminbi	CNY	3	6.82502
+%R	17	2	$	.	,	#1.1	(#1.1)	Canadian Dollar	CAD	3	1.03757
+%R	18	2	RUB	.	,	#1.1	(#1.1)	Russian Ruble	RUB	3	0.033948
+%R	19	2	$	.	,	#1.1	(#1.1)	Argentine Peso	ARS	3	3.79109
+%R	20	2	$b	.	,	#1.1	(#1.1)	Bolivian Boliviano	BOB	3	7.5708
+%R	21	2	R$	.	,	#1.1	(#1.1)	Brazilian Real	BRL	3	1.7665
+%R	22	2	$	.	,	#1.1	(#1.1)	Chilean Peso	CLP	3	507.58
+%R	23	2	$	.	,	#1.1	(#1.1)	Columbian Peso	COP	3	1957.74
+%R	24	2	$	.	,	#1.1	(#1.1)	Guyanese Dollar	GYD	3	202.95
+%R	25	2	Gs	.	,	#1.1	(#1.1)	Paraguayan Guarani	PYG	3	4640
+%R	26	2	S/.	.	,	#1.1	(#1.1)	Peruvian Nuevo Sol	PEN	3	2.7244
+%R	27	2	$	.	,	#1.1	(#1.1)	Surinamese Dollar	SRD	3	2.8
+%R	28	2	Bs	.	,	#1.1	(#1.1)	Venezuelan Bolivar Fuerto	VEF	3	2.1446
+%R	29	2	$U	.	,	#1.1	(#1.1)	Uruguayan Peso	UYU	3	21.247
+%T	OBS
+%F	obs_id	parent_obs_id	guid	seq_num	obs_name	obs_descr
+%R	540			0	—∆Ì” „Ã·” «·√œ«—…	<html>  <head>      </head>  <body bgcolor=""#ffffff"">    Enterprise  </body></html>
+%T	PROJECT
+%F	proj_id	fy_start_month_num	rsrc_self_add_flag	allow_complete_flag	rsrc_multi_assign_flag	checkout_flag	project_flag	step_complete_flag	cost_qty_recalc_flag	batch_sum_flag	name_sep_char	def_complete_pct_type	proj_short_name	acct_id	orig_proj_id	source_proj_id	base_type_id	clndr_id	sum_base_proj_id	task_code_base	task_code_step	priority_num	wbs_max_sum_level	strgy_priority_num	last_checksum	critical_drtn_hr_cnt	def_cost_per_qty	last_recalc_date	plan_start_date	plan_end_date	scd_end_date	add_date	last_tasksum_date	fcst_start_date	def_duration_type	task_code_prefix	guid	def_qty_type	add_by_name	web_local_root_path	proj_url	def_rate_type	add_act_remain_flag	act_this_per_link_flag	def_task_type	act_pct_link_flag	critical_path_type	task_code_prefix_flag	def_rollup_dates_flag	use_project_baseline_flag	rem_target_link_flag	reset_planned_flag	allow_neg_act_flag	sum_assign_level	last_fin_dates_id	last_baseline_update_date	cr_external_key	apply_actuals_date	location_id	loaded_scope_level	export_flag	new_fin_dates_id	baselines_to_export	baseline_names_to_export	next_data_date	close_period_flag	sum_refresh_date	trsrcsum_loaded
+%R	4510	1	Y	Y	Y	N	Y	N	N	Y	.	CP_Drtn	H.B					6590		1000	10	10	2	500		0	0.0000	2020-03-05 00:00	2017-07-01 00:00		2020-03-17 17:00	2020-05-29 22:55			DT_FixedDUR2	A	1o+9lRV/vkSaqxOSlL0ghA	QT_Hour	admin			COST_PER_QTY5	N	Y	TT_Task	Y	CT_TotFloat	Y	Y	Y	Y	N	N	SL_Taskrsrc						7	Y							
+%T	CALENDAR
+%F	clndr_id	default_flag	clndr_name	proj_id	base_clndr_id	last_chng_date	clndr_type	day_hr_cnt	week_hr_cnt	month_hr_cnt	year_hr_cnt	rsrc_private	clndr_data
+%R	6590	N	Constuction Company			2020-02-18 00:00	CA_Base	8	40	172	2000	N	(0||CalendarData()(  (0||DaysOfWeek()(    (0||1()(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||2()(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||3()(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||4()(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||5()(      (0||0(s|08:00|f|12:00)())))    (0||6()())    (0||7()(      (0||0(s|08:00|f|16:00)())))))  (0||VIEW(ShowTotal|Y)())  (0||Exceptions()(    (0||0(d|40179)())    (0||1(d|40329)())    (0||2(d|40364)())    (0||3(d|40427)())    (0||4(d|40507)())    (0||5(d|40536)())    (0||6(d|40543)())    (0||7(d|40693)())    (0||8(d|40728)())    (0||9(d|40791)())    (0||10(d|40871)())    (0||11(d|40903)())    (0||12(d|40910)())    (0||13(d|41057)())    (0||14(d|41094)())    (0||15(d|41155)())    (0||16(d|41235)())    (0||17(d|41268)())    (0||18(d|41275)())    (0||19(d|41421)())    (0||20(d|41459)())    (0||21(d|41519)())    (0||22(d|41606)())    (0||23(d|41633)())    (0||24(d|43867)(      (0||0(s|08:00|f|12:00)())))))))
+%T	SCHEDOPTIONS
+%F	schedoptions_id	proj_id	sched_outer_depend_type	sched_open_critical_flag	sched_lag_early_start_flag	sched_retained_logic	sched_setplantoforecast	sched_float_type	sched_calendar_on_relationship_lag	sched_use_expect_end_flag	sched_progress_override	level_float_thrs_cnt	level_outer_assign_flag	level_outer_assign_priority	level_over_alloc_pct	level_within_float_flag	level_keep_sched_date_flag	level_all_rsrc_flag	sched_use_project_end_date_for_float	enable_multiple_longest_path_calc	limit_multiple_longest_path_calc	max_multiple_longest_path	use_total_float_multiple_longest_paths	key_activity_for_multiple_longest_paths	LevelPriorityList
+%R	1	4510	SD_Both	N	Y	Y	N	FT_FF	rcal_Predecessor	Y	N	0	N	5	25	N	Y	Y	Y	N	Y	10	Y		priority_type,ASC
+%T	PROJWBS
+%F	wbs_id	proj_id	obs_id	seq_num	est_wt	proj_node_flag	sum_data_flag	status_code	wbs_short_name	wbs_name	phase_id	parent_wbs_id	ev_user_pct	ev_etc_user_value	orig_cost	indep_remain_total_cost	ann_dscnt_rate_pct	dscnt_period_type	indep_remain_work_qty	anticip_start_date	anticip_end_date	ev_compute_type	ev_etc_compute_type	guid	tmpl_guid	plan_open_state
+%R	26013	4510	540	4	1	Y	N	WS_Open	H.B	Helwan Bridges		26011	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	Jr4zLxv7ZUeG+O/p4W4skA		
+%R	26014	4510	540	100	1	N	N	WS_Open	02	„‰ÿﬁÂ ‘—ﬁ «·‰Ì·		26013	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	1EYJPAOFTE2DyLG6uVfG5Q		
+%R	26015	4510	540	101	1	N	N	WS_Open	03	„‰ÿﬁÂ «·‰Ì·		26013	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	jwoY9/QZ/UGXLdhXyBuvgA		
+%R	26016	4510	540	200	1	N	N	WS_Open	04	„‰ÿﬁÂ €—» «·‰Ì·		26013	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	/npc8HB2LEmse47oo9uQWw		
+%R	26017	4510	540	0	1	N	N	WS_Open	01	»‰Êœ ⁄«„Â		26013	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	T296N7wdjk2SKLnUWL2YEA		
+%R	26018	4510	540	104	1	N	N	WS_Open	40	„ÕÊ— N09 South		26014	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	lsOyWznGkUG8jUAd3BARNg		
+%R	26019	4510	540	201	1	N	N	WS_Open	50	„ÕÊ— N09 North		26014	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	4cqSorixcECKbIFCs/Pk/g		
+%R	26020	4510	540	301	1	N	N	WS_Open	60	„ÕÊ— N10 South		26014	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	Dfubaz1ZPUKTHmOWuPzzNw		
+%R	26021	4510	540	402	1	N	N	WS_Open	80	„ÕÊ— N11 South		26014	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	5r9laPnyC0yBAYVABaHqPw		
+%R	26022	4510	540	405	1	N	N	WS_Open	100	„ÕÊ— N12 South		26014	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	RYGE89FUK02U2BrvE4C00g		
+%R	26023	4510	540	407	1	N	N	WS_Open	120	„ÕÊ— N13 South		26014	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	kdW18gnR70KuNKlS/X6ydg		
+%R	26024	4510	540	401	1	N	N	WS_Open	70	„ÕÊ— N10 North		26014	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	bzcEmsTLNEyx6Cidux/ncg		
+%R	26025	4510	540	404	1	N	N	WS_Open	90	„ÕÊ— N11 North		26014	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	ly+3VwxW206gn8kccg5R9Q		
+%R	26026	4510	540	406	1	N	N	WS_Open	110	„ÕÊ— N12 North		26014	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	1nRLGXE00kGwRSfpCv1iGg		
+%R	26027	4510	540	506	1	N	N	WS_Open	130	„ÕÊ— N13 North		26014	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	Ia+bs4LLBUqjPIku/QvM8A		
+%R	26028	4510	540	101	1	N	N	WS_Open	10	„ÕÊ— N06		26015	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	x8jItEIO3kWyCsxI2jInkw		
+%R	26029	4510	540	1006	1	N	N	WS_Open	150	«·—«„» «·Ì„Ì‰		26014	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	8C0OqTk3ykyfdsPxLFkh1A		
+%R	26030	4510	540	606	1	N	N	WS_Open	140	«·Õ«∆ÿ «·”«‰œ „‰Õœ— 1		26014	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	eBzN2jyyDUWlenaTnPO6Nw		
+%R	26031	4510	540	1206	1	N	N	WS_Open	160	«·Õ«∆ÿ «·”«‰œ „‰Õœ— 2		26014	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	kXR/OnaWn0qKYhx5AXg7gA		
+%R	26032	4510	540	201	1	N	N	WS_Open	20	„ÕÊ— N07		26015	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	o9buwQhUtUq6imvF2NMoBw		
+%R	26033	4510	540	401	1	N	N	WS_Open	40	„ÕÊ— N00 South		26016	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	dxVE/RzfVkG+EAuYTwucBw		
+%R	26034	4510	540	402	1	N	N	WS_Open	50	„ÕÊ— N00  North		26016	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	NDpZ2jM6zUi/D0i4XJgGvQ		
+%R	26035	4510	540	500	1	N	N	WS_Open	60	„ÕÊ— N0 South		26016	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	eYVDG5I5QkiURxKSouc5zg		
+%R	26036	4510	540	600	1	N	N	WS_Open	70	„ÕÊ— N0  North		26016	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	6gaVRXEQy0uQol57LWtpnQ		
+%R	26037	4510	540	700	1	N	N	WS_Open	80	„ÕÊ— N01 South		26016	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	B6YzIoKZikKGGrEVOw9gbg		
+%R	26038	4510	540	800	1	N	N	WS_Open	90	„ÕÊ— N01 North		26016	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	ivuCXKXS1EeUGCw7drZDow		
+%R	26039	4510	540	900	1	N	N	WS_Open	100	„ÕÊ— N02 South		26016	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	hm663I3NukGPFZGwg9i/nQ		
+%R	26040	4510	540	1000	1	N	N	WS_Open	110	„ÕÊ— N02 North		26016	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	jNa5ZzDuhESrE/0WWfS1NA		
+%R	26041	4510	540	1100	1	N	N	WS_Open	120	„ÕÊ— N03 South		26016	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	+4xGQTgABkyBA0vF40X/qg		
+%R	26042	4510	540	1200	1	N	N	WS_Open	130	„ÕÊ— N03 North		26016	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	1vsDI6rF6k2MbC8JtxkzTg		
+%R	26043	4510	540	1300	1	N	N	WS_Open	140	„ÕÊ— N04 South		26016	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	zAzUIP5WOEev+ARwjYpxLg		
+%R	26044	4510	540	1400	1	N	N	WS_Open	150	„ÕÊ— N04 North		26016	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	WbQ7OYtgZ0uHdtCxr+1p4g		
+%R	26045	4510	540	1500	1	N	N	WS_Open	160	„ÕÊ— N05 South		26016	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	QLbQuRFJIkOwvZnDzqyfLw		
+%R	26047	4510	540	101	1	N	N	WS_Open	20	„ÕÊ— N08 South		26014	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	iZY5S7Uqfk2Tv+c9s84XWA		
+%R	26048	4510	540	103	1	N	N	WS_Open	30	„ÕÊ— N08 North		26014	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	bI0wTOrUHEKH59BbQq5Rdg		
+%R	26049	4510	540	0	1	N	N	WS_Open	10	„ÕÊ— A1		26016	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	umU1JiOAWUyggvJlz9APqg		
+%R	26050	4510	540	300	1	N	N	WS_Open	20	„ÕÊ— A2		26016	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	278tQgAKSkGDROqQ1N7YpQ		
+%R	26051	4510	540	400	1	N	N	WS_Open	30	„ÕÊ— A3		26016	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	Rz2hcXUTCUSgUu+3U5WEOw		
+%R	26052	4510	540	1208	1	N	N	WS_Open	170	«·—«„» «·‘„«·		26014	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	pVo6MU6GCkyS1KzXaSUy/Q		
+%R	26053	4510	540	1	1	N	N	WS_Open	01	„ÕÊ—  R 201		26029	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	9rfyD+LaIk22WBJK1dGXiQ		
+%R	26054	4510	540	101	1	N	N	WS_Open	02	„ÕÊ—  R 202		26029	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	FCoVUPR1Sky+17Tv5KlISw		
+%R	26055	4510	540	201	1	N	N	WS_Open	03	„ÕÊ—  R 203		26029	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	P05LEDQgqk2dzyDpRPRLHg		
+%R	26056	4510	540	301	1	N	N	WS_Open	04	„ÕÊ—  R 204		26029	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	CzHmw/5a0UKRCD75wUa1uA		
+%R	26057	4510	540	102	1	N	N	WS_Open	01	√⁄„«· «·ŒÊ«“Ìﬁ		26018	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	3HOtqqQypkC3zhNGfM/tqg		
+%R	26058	4510	540	202	1	N	N	WS_Open	02	√⁄„«· «·ﬁÊ«⁄œ		26018	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	uyzwxmfZJEeHiQNY2C9v5g		
+%R	26059	4510	540	302	1	N	N	WS_Open	03	√⁄„«· «·«⁄„œÂ		26018	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	j9++qjigEECEDBoJMkEp/A		
+%R	26060	4510	540	402	1	N	N	WS_Open	04	√⁄„«· «·„Œœ« 		26018	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	rbAPCNWXCki4f27raGMuaQ		
+%R	26061	4510	540	502	1	N	N	WS_Open	05	√⁄„«· «·—ﬂ«∆“		26018	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	irjf4cGUaUqc7n+mcHquig		
+%R	26062	4510	540	602	1	N	N	WS_Open	06	√⁄„«· «·»·«ÿ«  «·’‰œÊﬁÌÂ		26018	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	D2HswVkSxUqjrdc6z40slg		
+%R	26063	4510	540	702	1	N	N	WS_Open	07	√⁄„«· «·—’›		26018	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	sQFPy+AfDk6qgqA9mAwVCQ		
+%R	26064	4510	540	0	1	N	N	WS_Open	01	√⁄„«· «·ŒÊ«“Ìﬁ		26019	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	teUFKJRzokGbMRU30Jd/Ag	svOo8OyRH0W5TKbL/9QIXA	
+%R	26065	4510	540	1	1	N	N	WS_Open	02	√⁄„«· «·ﬁÊ«⁄œ		26019	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	s/S2VKdyQEKJj1ep5p1jFg	iYHhlMhyp0SSGVDff5PliA	
+%R	26066	4510	540	2	1	N	N	WS_Open	03	√⁄„«· «·«⁄„œÂ		26019	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	vabYoKiy/E+pn5Y3gXoGTg	ldHWZIDVW063In2WQdH5ig	
+%R	26067	4510	540	3	1	N	N	WS_Open	04	√⁄„«· «·„Œœ« 		26019	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	PgsqnT2NKk6vctOUUnIZpQ	c4v3Q3X9s0egXBSJJFGTHg	
+%R	26068	4510	540	4	1	N	N	WS_Open	05	√⁄„«· «·—ﬂ«∆“		26019	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	iYMqD97PBEe5jRIjIqxB+Q	frJW8WFY2UOzGWDLAlSqqg	
+%R	26069	4510	540	5	1	N	N	WS_Open	06	√⁄„«· «·»·«ÿ«  «·’‰œÊﬁÌÂ		26019	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	zeC4S42orEiFFjMmYnghkQ	XrkE0HB3/E2SfxZqbGcUeA	
+%R	26070	4510	540	6	1	N	N	WS_Open	7	√⁄„«· «·—’›		26019	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	cIe8pLqH/EyA6CXNtJ9khg	5ir5peXWg0aeOJCd95PDww	
+%R	26071	4510	540	0	1	N	N	WS_Open	01	√⁄„«· «·ŒÊ«“Ìﬁ		26020	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	qgo8XOSpV0KsocE9Cy/MFA	svOo8OyRH0W5TKbL/9QIXA	
+%R	26072	4510	540	1	1	N	N	WS_Open	02	√⁄„«· «·ﬁÊ«⁄œ		26020	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	MqP48SERKkeFEeL40ySWNA	iYHhlMhyp0SSGVDff5PliA	
+%R	26073	4510	540	2	1	N	N	WS_Open	03	√⁄„«· «·«⁄„œÂ		26020	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	Z9v9Npd2okCwdzbqBSxNQw	ldHWZIDVW063In2WQdH5ig	
+%R	26074	4510	540	3	1	N	N	WS_Open	04	√⁄„«· «·„Œœ« 		26020	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	zDSddLeBQ0+18I5Ca35fvg	c4v3Q3X9s0egXBSJJFGTHg	
+%R	26075	4510	540	4	1	N	N	WS_Open	05	√⁄„«· «·—ﬂ«∆“		26020	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	Hppa1i2WmUSerf8uh7bmcw	frJW8WFY2UOzGWDLAlSqqg	
+%R	26076	4510	540	5	1	N	N	WS_Open	06	√⁄„«· «·»·«ÿ«  «·’‰œÊﬁÌÂ		26020	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	Z0d+mqRgAUKRLgzbYR/nFA	XrkE0HB3/E2SfxZqbGcUeA	
+%R	26077	4510	540	6	1	N	N	WS_Open	07	√⁄„«· «·—’›		26020	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	6Qe3Nn1w7UauWfrCr8+/UQ	5ir5peXWg0aeOJCd95PDww	
+%R	26078	4510	540	0	1	N	N	WS_Open	01	√⁄„«· «·ŒÊ«“Ìﬁ		26024	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	ZKkHz31SmUK174StCukwlQ	svOo8OyRH0W5TKbL/9QIXA	
+%R	26079	4510	540	1	1	N	N	WS_Open	02	√⁄„«· «·ﬁÊ«⁄œ		26024	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	77ztCMULPE6I8yotmIAkTQ	iYHhlMhyp0SSGVDff5PliA	
+%R	26080	4510	540	2	1	N	N	WS_Open	03	√⁄„«· «·«⁄„œÂ		26024	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	Er0SKW1mqkCgzrewciwOdg	ldHWZIDVW063In2WQdH5ig	
+%R	26081	4510	540	3	1	N	N	WS_Open	04	√⁄„«· «·„Œœ« 		26024	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	Bu56cISZmUqfilsZJzJGKg	c4v3Q3X9s0egXBSJJFGTHg	
+%R	26082	4510	540	4	1	N	N	WS_Open	05	√⁄„«· «·—ﬂ«∆“		26024	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	Ahw38XQGCkGPpV9RZI7ghg	frJW8WFY2UOzGWDLAlSqqg	
+%R	26083	4510	540	5	1	N	N	WS_Open	06	√⁄„«· «·»·«ÿ«  «·’‰œÊﬁÌÂ		26024	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	O8i0OvwQfkSM7mnADcIltg	XrkE0HB3/E2SfxZqbGcUeA	
+%R	26084	4510	540	6	1	N	N	WS_Open	07	√⁄„«· «·—’›		26024	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	z8d76JFv40+oNwHpTBtJQw	5ir5peXWg0aeOJCd95PDww	
+%R	26085	4510	540	0	1	N	N	WS_Open	01	√⁄„«· «·ŒÊ«“Ìﬁ		26021	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	/VoV1B1lQk6TnO/mpxDD6g	svOo8OyRH0W5TKbL/9QIXA	
+%R	26086	4510	540	1	1	N	N	WS_Open	02	√⁄„«· «·ﬁÊ«⁄œ		26021	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	1FN6sf6wjkaoTiDN3Ss6+w	iYHhlMhyp0SSGVDff5PliA	
+%R	26087	4510	540	2	1	N	N	WS_Open	03	√⁄„«· «·«⁄„œÂ		26021	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	vndc04E0jEKTsltqj2tzuA	ldHWZIDVW063In2WQdH5ig	
+%R	26088	4510	540	3	1	N	N	WS_Open	04	√⁄„«· «·„Œœ« 		26021	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	3LJkIfWYjUK0C/5VjYttiA	c4v3Q3X9s0egXBSJJFGTHg	
+%R	26089	4510	540	4	1	N	N	WS_Open	05	√⁄„«· «·—ﬂ«∆“		26021	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	pDs+oLIEUE21a+ggQF48fA	frJW8WFY2UOzGWDLAlSqqg	
+%R	26090	4510	540	5	1	N	N	WS_Open	06	√⁄„«· «·»·«ÿ«  «·’‰œÊﬁÌÂ		26021	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	4kswk5HoaUmi0n/A3WbeSg	XrkE0HB3/E2SfxZqbGcUeA	
+%R	26091	4510	540	6	1	N	N	WS_Open	07	√⁄„«· «·—’›		26021	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	q/+ACPZ2Xk+Hd6HyjtCJYA	5ir5peXWg0aeOJCd95PDww	
+%R	26092	4510	540	0	1	N	N	WS_Open	01	√⁄„«· «·ŒÊ«“Ìﬁ		26025	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	yxKmZisnyUyJxwIjzpuGTQ	svOo8OyRH0W5TKbL/9QIXA	
+%R	26093	4510	540	1	1	N	N	WS_Open	02	√⁄„«· «·ﬁÊ«⁄œ		26025	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	Eb2g6w3h40+NRQYwHF1IxQ	iYHhlMhyp0SSGVDff5PliA	
+%R	26094	4510	540	2	1	N	N	WS_Open	03	√⁄„«· «·«⁄„œÂ		26025	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	YaT6LwcXqkKaVsnGw7eDBA	ldHWZIDVW063In2WQdH5ig	
+%R	26095	4510	540	3	1	N	N	WS_Open	04	√⁄„«· «·„Œœ« 		26025	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	sCngnlsLr0m2DKkeemF8sQ	c4v3Q3X9s0egXBSJJFGTHg	
+%R	26096	4510	540	4	1	N	N	WS_Open	05	√⁄„«· «·—ﬂ«∆“		26025	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	mFa/zL+2rkiudNv9nG+0qg	frJW8WFY2UOzGWDLAlSqqg	
+%R	26097	4510	540	5	1	N	N	WS_Open	06	√⁄„«· «·»·«ÿ«  «·’‰œÊﬁÌÂ		26025	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	LFf7LaGK3U6nWtpJGPTU/A	XrkE0HB3/E2SfxZqbGcUeA	
+%R	26098	4510	540	6	1	N	N	WS_Open	07	√⁄„«· «·—’›		26025	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	ZsXFzHB3cku+O/XErEKRfg	5ir5peXWg0aeOJCd95PDww	
+%R	26099	4510	540	0	1	N	N	WS_Open	01	√⁄„«· «·ŒÊ«“Ìﬁ		26022	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	F8hOacrVh0Kns7Tx0STjeQ	svOo8OyRH0W5TKbL/9QIXA	
+%R	26100	4510	540	1	1	N	N	WS_Open	02	√⁄„«· «·ﬁÊ«⁄œ		26022	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	DrWzB1t5JUirgZ7qRaYxNg	iYHhlMhyp0SSGVDff5PliA	
+%R	26101	4510	540	2	1	N	N	WS_Open	03	√⁄„«· «·«⁄„œÂ		26022	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	XD39hyT8bEy/LoPeuAPzfw	ldHWZIDVW063In2WQdH5ig	
+%R	26102	4510	540	3	1	N	N	WS_Open	04	√⁄„«· «·„Œœ« 		26022	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	hRDk5X6ud0Wczt2BXRiLrA	c4v3Q3X9s0egXBSJJFGTHg	
+%R	26103	4510	540	4	1	N	N	WS_Open	05	√⁄„«· «·—ﬂ«∆“		26022	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	q4AtpmxguEGPTrDOC7oX0w	frJW8WFY2UOzGWDLAlSqqg	
+%R	26104	4510	540	5	1	N	N	WS_Open	06	√⁄„«· «·»·«ÿ«  «·’‰œÊﬁÌÂ		26022	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	DtwV2Ob+BkKOjPr3y+mGjA	XrkE0HB3/E2SfxZqbGcUeA	
+%R	26105	4510	540	6	1	N	N	WS_Open	07	√⁄„«· «·—’›		26022	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	dFXNg+MlVUqX+Qbp6OF/Jw	5ir5peXWg0aeOJCd95PDww	
+%R	26106	4510	540	0	1	N	N	WS_Open	01	√⁄„«· «·ŒÊ«“Ìﬁ		26026	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	MItfOXwBIkiWUM4FGjQPvg	svOo8OyRH0W5TKbL/9QIXA	
+%R	26107	4510	540	1	1	N	N	WS_Open	02	√⁄„«· «·ﬁÊ«⁄œ		26026	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	LoqPnGBD1EqdmIHKhZOCtw	iYHhlMhyp0SSGVDff5PliA	
+%R	26108	4510	540	2	1	N	N	WS_Open	03	√⁄„«· «·«⁄„œÂ		26026	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	iWa2W/mnGki7LguItjhrrw	ldHWZIDVW063In2WQdH5ig	
+%R	26109	4510	540	3	1	N	N	WS_Open	04	√⁄„«· «·„Œœ« 		26026	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	sNRm8WR8+0m9h6HFSdeEhA	c4v3Q3X9s0egXBSJJFGTHg	
+%R	26110	4510	540	4	1	N	N	WS_Open	05	√⁄„«· «·—ﬂ«∆“		26026	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	7vTcSg271UeqZgrlwheocQ	frJW8WFY2UOzGWDLAlSqqg	
+%R	26111	4510	540	5	1	N	N	WS_Open	06	√⁄„«· «·»·«ÿ«  «·’‰œÊﬁÌÂ		26026	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	CmCRRiRqFkKAq1WW1+MggA	XrkE0HB3/E2SfxZqbGcUeA	
+%R	26112	4510	540	6	1	N	N	WS_Open	07	√⁄„«· «·—’›		26026	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	Gt0lCZE5GkChEgTMMmSvLQ	5ir5peXWg0aeOJCd95PDww	
+%R	26113	4510	540	0	1	N	N	WS_Open	01	√⁄„«· «·ŒÊ«“Ìﬁ		26023	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	Mz9oCq/UsEqCPQN3ZygsxA	svOo8OyRH0W5TKbL/9QIXA	
+%R	26114	4510	540	1	1	N	N	WS_Open	02	√⁄„«· «·ﬁÊ«⁄œ		26023	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	Sglx92oR4kml/ufcJFLjNA	iYHhlMhyp0SSGVDff5PliA	
+%R	26115	4510	540	2	1	N	N	WS_Open	03	√⁄„«· «·«⁄„œÂ		26023	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	KzS6MnAStkmOBV+7mjz7mQ	ldHWZIDVW063In2WQdH5ig	
+%R	26116	4510	540	3	1	N	N	WS_Open	04	√⁄„«· «·„Œœ« 		26023	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	noKdGgn070+VdqLal0AT8A	c4v3Q3X9s0egXBSJJFGTHg	
+%R	26117	4510	540	4	1	N	N	WS_Open	05	√⁄„«· «·—ﬂ«∆“		26023	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	zEhHseGZNk2/GkOQT720JQ	frJW8WFY2UOzGWDLAlSqqg	
+%R	26118	4510	540	5	1	N	N	WS_Open	06	√⁄„«· «·»·«ÿ«  «·’‰œÊﬁÌÂ		26023	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	WW3HCD3c7EeixbemUEXaBQ	XrkE0HB3/E2SfxZqbGcUeA	
+%R	26119	4510	540	6	1	N	N	WS_Open	07	√⁄„«· «·—’›		26023	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	+v1kUIUYbEuoKE/v/Qrc+w	5ir5peXWg0aeOJCd95PDww	
+%R	26120	4510	540	0	1	N	N	WS_Open	01	√⁄„«· «·ŒÊ«“Ìﬁ		26027	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	BiqZL7d0aUaCeU1zl9UIvA	svOo8OyRH0W5TKbL/9QIXA	
+%R	26121	4510	540	1	1	N	N	WS_Open	02	√⁄„«· «·ﬁÊ«⁄œ		26027	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	ZNiK933jOkSxla0S9jAkHQ	iYHhlMhyp0SSGVDff5PliA	
+%R	26122	4510	540	2	1	N	N	WS_Open	03	√⁄„«· «·«⁄„œÂ		26027	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	7g5anCgAok2KfbDcDLkarg	ldHWZIDVW063In2WQdH5ig	
+%R	26123	4510	540	3	1	N	N	WS_Open	04	√⁄„«· «·„Œœ« 		26027	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	86OarBHk7UClntbnnN3jmw	c4v3Q3X9s0egXBSJJFGTHg	
+%R	26124	4510	540	4	1	N	N	WS_Open	05	√⁄„«· «·—ﬂ«∆“		26027	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	GW/xk84d6kijNZY6ma6Rrw	frJW8WFY2UOzGWDLAlSqqg	
+%R	26125	4510	540	5	1	N	N	WS_Open	06	√⁄„«· «·»·«ÿ«  «·’‰œÊﬁÌÂ		26027	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	47ZS/h/VZkq1ZAdRYdD1cQ	XrkE0HB3/E2SfxZqbGcUeA	
+%R	26126	4510	540	6	1	N	N	WS_Open	07	√⁄„«· «·—’›		26027	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	qE+J524x+Eekj/5wEtBtmg	5ir5peXWg0aeOJCd95PDww	
+%R	26127	4510	540	0	1	N	N	WS_Open	01	√⁄„«· «·ŒÊ«“Ìﬁ		26033	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	yDimOiRpEUKxb8q4eIymWA	svOo8OyRH0W5TKbL/9QIXA	
+%R	26128	4510	540	1	1	N	N	WS_Open	02	√⁄„«· «·ﬁÊ«⁄œ		26033	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	cP9y6eBLe0qS40kEdGFfXw	iYHhlMhyp0SSGVDff5PliA	
+%R	26129	4510	540	2	1	N	N	WS_Open	03	√⁄„«· «·«⁄„œÂ		26033	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	ADAkg7vGXk+dp9jPdtnYgQ	ldHWZIDVW063In2WQdH5ig	
+%R	26130	4510	540	3	1	N	N	WS_Open	04	√⁄„«· «·„Œœ« 		26033	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	TjEFGuuDCky7JzUGxFNRsw	c4v3Q3X9s0egXBSJJFGTHg	
+%R	26131	4510	540	4	1	N	N	WS_Open	05	√⁄„«· «·—ﬂ«∆“		26033	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	k1rfj8CcHkWHHUur841IpA	frJW8WFY2UOzGWDLAlSqqg	
+%R	26132	4510	540	5	1	N	N	WS_Open	06	√⁄„«· «·»·«ÿ«  «·’‰œÊﬁÌÂ		26033	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	lLL/y+av5kO9/9WSzL5fXQ	XrkE0HB3/E2SfxZqbGcUeA	
+%R	26133	4510	540	6	1	N	N	WS_Open	07	√⁄„«· «·—’›		26033	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	6mSt1WhCkEu9LY5SXujqdQ	5ir5peXWg0aeOJCd95PDww	
+%R	26134	4510	540	0	1	N	N	WS_Open	01	√⁄„«· «·ŒÊ«“Ìﬁ		26034	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	xopp9Ml+EU2d35pkxCq8zQ	svOo8OyRH0W5TKbL/9QIXA	
+%R	26135	4510	540	1	1	N	N	WS_Open	02	√⁄„«· «·ﬁÊ«⁄œ		26034	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	U7kn9Wt830yXvTNhhZ12PA	iYHhlMhyp0SSGVDff5PliA	
+%R	26136	4510	540	2	1	N	N	WS_Open	03	√⁄„«· «·«⁄„œÂ		26034	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	ZGfxUVrzUEu0i5SrIx/j0A	ldHWZIDVW063In2WQdH5ig	
+%R	26137	4510	540	3	1	N	N	WS_Open	04	√⁄„«· «·„Œœ« 		26034	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	kgezs66FXkiJzoXwURQsmg	c4v3Q3X9s0egXBSJJFGTHg	
+%R	26138	4510	540	4	1	N	N	WS_Open	05	√⁄„«· «·—ﬂ«∆“		26034	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	l146fBu5wkK/KUYsCRUrNQ	frJW8WFY2UOzGWDLAlSqqg	
+%R	26139	4510	540	5	1	N	N	WS_Open	06	√⁄„«· «·»·«ÿ«  «·’‰œÊﬁÌÂ		26034	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	TA6PjVjbK02jUlj4+iuBXQ	XrkE0HB3/E2SfxZqbGcUeA	
+%R	26140	4510	540	6	1	N	N	WS_Open	07	√⁄„«· «·—’›		26034	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	+8jD6uCEfUyhWPcyLwQjdQ	5ir5peXWg0aeOJCd95PDww	
+%R	26141	4510	540	0	1	N	N	WS_Open	01	√⁄„«· «·ŒÊ«“Ìﬁ		26035	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	mNW6vIEe/keH8/16jNG0zA	svOo8OyRH0W5TKbL/9QIXA	
+%R	26142	4510	540	1	1	N	N	WS_Open	02	√⁄„«· «·ﬁÊ«⁄œ		26035	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	FHIJ8iykgUmmRrUbMYIqRA	iYHhlMhyp0SSGVDff5PliA	
+%R	26143	4510	540	2	1	N	N	WS_Open	03	√⁄„«· «·«⁄„œÂ		26035	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	ch3J08PCmUi3OM3L6zqffg	ldHWZIDVW063In2WQdH5ig	
+%R	26144	4510	540	3	1	N	N	WS_Open	04	√⁄„«· «·„Œœ« 		26035	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	pTlWI18jlkO6QGhHrHBA9Q	c4v3Q3X9s0egXBSJJFGTHg	
+%R	26145	4510	540	4	1	N	N	WS_Open	05	√⁄„«· «·—ﬂ«∆“		26035	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	otDoU1C3RUa5OyPHpDNbOA	frJW8WFY2UOzGWDLAlSqqg	
+%R	26146	4510	540	5	1	N	N	WS_Open	06	√⁄„«· «·»·«ÿ«  «·’‰œÊﬁÌÂ		26035	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	87BLtFLt0U+Hb3eXXdnkzw	XrkE0HB3/E2SfxZqbGcUeA	
+%R	26147	4510	540	6	1	N	N	WS_Open	07	√⁄„«· «·—’›		26035	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	OjmlleAsh0G16fBk/M4TTA	5ir5peXWg0aeOJCd95PDww	
+%R	26148	4510	540	0	1	N	N	WS_Open	01	√⁄„«· «·ŒÊ«“Ìﬁ		26036	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	ZsOpj7PUJE24ab+y1GZQCg	svOo8OyRH0W5TKbL/9QIXA	
+%R	26149	4510	540	1	1	N	N	WS_Open	02	√⁄„«· «·ﬁÊ«⁄œ		26036	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	MbkGOMIHOUSwTdfPVTJ1GA	iYHhlMhyp0SSGVDff5PliA	
+%R	26150	4510	540	2	1	N	N	WS_Open	03	√⁄„«· «·«⁄„œÂ		26036	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	obLhgipdf0++H0LdT8EjMQ	ldHWZIDVW063In2WQdH5ig	
+%R	26151	4510	540	3	1	N	N	WS_Open	04	√⁄„«· «·„Œœ« 		26036	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	ca4MY4csYU2CAj7M6LaOXw	c4v3Q3X9s0egXBSJJFGTHg	
+%R	26152	4510	540	4	1	N	N	WS_Open	05	√⁄„«· «·—ﬂ«∆“		26036	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	QL8CiFAyEk2YaJrNfbnhEQ	frJW8WFY2UOzGWDLAlSqqg	
+%R	26153	4510	540	5	1	N	N	WS_Open	06	√⁄„«· «·»·«ÿ«  «·’‰œÊﬁÌÂ		26036	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	5RZLIPSuVUChi0IyRZ7gBQ	XrkE0HB3/E2SfxZqbGcUeA	
+%R	26154	4510	540	6	1	N	N	WS_Open	07	√⁄„«· «·—’›		26036	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	o48apYm2fE2d9/KgyODVZg	5ir5peXWg0aeOJCd95PDww	
+%R	26155	4510	540	0	1	N	N	WS_Open	01	√⁄„«· «·ŒÊ«“Ìﬁ		26037	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	K0j1+nll9kqH28oGe6KVkA	svOo8OyRH0W5TKbL/9QIXA	
+%R	26156	4510	540	1	1	N	N	WS_Open	02	√⁄„«· «·ﬁÊ«⁄œ		26037	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	FRcaVawO5U6B2FrVamPGag	iYHhlMhyp0SSGVDff5PliA	
+%R	26157	4510	540	2	1	N	N	WS_Open	03	√⁄„«· «·«⁄„œÂ		26037	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	Dw5YT5nUWUm+hcO7k+z+Yg	ldHWZIDVW063In2WQdH5ig	
+%R	26158	4510	540	3	1	N	N	WS_Open	04	√⁄„«· «·„Œœ« 		26037	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	RJuIzc3WE0mCS4CEzf3VRA	c4v3Q3X9s0egXBSJJFGTHg	
+%R	26159	4510	540	4	1	N	N	WS_Open	05	√⁄„«· «·—ﬂ«∆“		26037	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	IkjGQUFER02seOQnFfbDYA	frJW8WFY2UOzGWDLAlSqqg	
+%R	26160	4510	540	5	1	N	N	WS_Open	06	√⁄„«· «·»·«ÿ«  «·’‰œÊﬁÌÂ		26037	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	K/aAImndYE6RJFnYH5U7qg	XrkE0HB3/E2SfxZqbGcUeA	
+%R	26161	4510	540	6	1	N	N	WS_Open	07	√⁄„«· «·—’›		26037	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	xxO7fYNuKkKYH0MrLrkfrw	5ir5peXWg0aeOJCd95PDww	
+%R	26162	4510	540	0	1	N	N	WS_Open	01	√⁄„«· «·ŒÊ«“Ìﬁ		26038	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	63MRDjkdE0ikai6J4qIYRQ	svOo8OyRH0W5TKbL/9QIXA	
+%R	26163	4510	540	1	1	N	N	WS_Open	02	√⁄„«· «·ﬁÊ«⁄œ		26038	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	CfMp6UTSKkyimDTjUt6W9w	iYHhlMhyp0SSGVDff5PliA	
+%R	26164	4510	540	2	1	N	N	WS_Open	03	√⁄„«· «·«⁄„œÂ		26038	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	K/LrNoykx0eDCS115hESSA	ldHWZIDVW063In2WQdH5ig	
+%R	26165	4510	540	3	1	N	N	WS_Open	04	√⁄„«· «·„Œœ« 		26038	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	QaUJKYNLkkGF9lNDhdde6g	c4v3Q3X9s0egXBSJJFGTHg	
+%R	26166	4510	540	4	1	N	N	WS_Open	05	√⁄„«· «·—ﬂ«∆“		26038	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	BWJiMtW83UOLOn5eht18BA	frJW8WFY2UOzGWDLAlSqqg	
+%R	26167	4510	540	5	1	N	N	WS_Open	06	√⁄„«· «·»·«ÿ«  «·’‰œÊﬁÌÂ		26038	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	ALIJzVHSIEGnl0rBSIxgPA	XrkE0HB3/E2SfxZqbGcUeA	
+%R	26168	4510	540	6	1	N	N	WS_Open	07	√⁄„«· «·—’›		26038	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	oZf2SDjGaEmVh62frzoSBw	5ir5peXWg0aeOJCd95PDww	
+%R	26169	4510	540	0	1	N	N	WS_Open	01	√⁄„«· «·ŒÊ«“Ìﬁ		26039	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	/F/IKsia60+xfVnL8iivGw	svOo8OyRH0W5TKbL/9QIXA	
+%R	26170	4510	540	1	1	N	N	WS_Open	02	√⁄„«· «·ﬁÊ«⁄œ		26039	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	0PCidlmLRkyR+vlR89/WJQ	iYHhlMhyp0SSGVDff5PliA	
+%R	26171	4510	540	2	1	N	N	WS_Open	03	√⁄„«· «·«⁄„œÂ		26039	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	Q3WftFqhrUKAsk6yCPofAQ	ldHWZIDVW063In2WQdH5ig	
+%R	26172	4510	540	3	1	N	N	WS_Open	04	√⁄„«· «·„Œœ« 		26039	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	x1Xktmq5EUewRo/hLahQNw	c4v3Q3X9s0egXBSJJFGTHg	
+%R	26173	4510	540	4	1	N	N	WS_Open	05	√⁄„«· «·—ﬂ«∆“		26039	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	Xv5Bps2UxEC0u1ASWBvjyg	frJW8WFY2UOzGWDLAlSqqg	
+%R	26174	4510	540	5	1	N	N	WS_Open	06	√⁄„«· «·»·«ÿ«  «·’‰œÊﬁÌÂ		26039	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	zLK8klgcA0KUSuQQdSd6Ug	XrkE0HB3/E2SfxZqbGcUeA	
+%R	26175	4510	540	6	1	N	N	WS_Open	07	√⁄„«· «·—’›		26039	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	FJ+O4X+Y5EG4kcpUeotrtQ	5ir5peXWg0aeOJCd95PDww	
+%R	26176	4510	540	0	1	N	N	WS_Open	01	√⁄„«· «·ŒÊ«“Ìﬁ		26040	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	9XjgcrB6TEi6ND54DBtNCA	svOo8OyRH0W5TKbL/9QIXA	
+%R	26177	4510	540	1	1	N	N	WS_Open	02	√⁄„«· «·ﬁÊ«⁄œ		26040	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	jcp64ZLdCkq5tjnbhhTBmQ	iYHhlMhyp0SSGVDff5PliA	
+%R	26178	4510	540	2	1	N	N	WS_Open	03	√⁄„«· «·«⁄„œÂ		26040	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	w45JyWG5gEOxnE9CY6swIA	ldHWZIDVW063In2WQdH5ig	
+%R	26179	4510	540	3	1	N	N	WS_Open	04	√⁄„«· «·„Œœ« 		26040	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	YMMgGLmMHkKhoFz4O3T4iw	c4v3Q3X9s0egXBSJJFGTHg	
+%R	26180	4510	540	4	1	N	N	WS_Open	05	√⁄„«· «·—ﬂ«∆“		26040	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	3ym/qR2ytEWNk3u9HHsdwQ	frJW8WFY2UOzGWDLAlSqqg	
+%R	26181	4510	540	5	1	N	N	WS_Open	06	√⁄„«· «·»·«ÿ«  «·’‰œÊﬁÌÂ		26040	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	CxCdPxA0wEOO4itRSN7Arg	XrkE0HB3/E2SfxZqbGcUeA	
+%R	26182	4510	540	6	1	N	N	WS_Open	07	√⁄„«· «·—’›		26040	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	i8rfHXa8ikKf/xTIBt1PMA	5ir5peXWg0aeOJCd95PDww	
+%R	26183	4510	540	0	1	N	N	WS_Open	01	√⁄„«· «·ŒÊ«“Ìﬁ		26041	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	f9Upka4Xt0W7CNCqL5yiWA	svOo8OyRH0W5TKbL/9QIXA	
+%R	26184	4510	540	1	1	N	N	WS_Open	02	√⁄„«· «·ﬁÊ«⁄œ		26041	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	Vne5bPfZuESKbo7Y0JYNqw	iYHhlMhyp0SSGVDff5PliA	
+%R	26185	4510	540	2	1	N	N	WS_Open	03	√⁄„«· «·«⁄„œÂ		26041	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	4Z177Af8eEemqQ46eUJPWA	ldHWZIDVW063In2WQdH5ig	
+%R	26186	4510	540	3	1	N	N	WS_Open	04	√⁄„«· «·„Œœ« 		26041	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	EO2fZ/PGDkeHMqxNqYltyA	c4v3Q3X9s0egXBSJJFGTHg	
+%R	26187	4510	540	4	1	N	N	WS_Open	05	√⁄„«· «·—ﬂ«∆“		26041	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	D+Be7GjwLEOgA5wzGLjF3Q	frJW8WFY2UOzGWDLAlSqqg	
+%R	26188	4510	540	5	1	N	N	WS_Open	06	√⁄„«· «·»·«ÿ«  «·’‰œÊﬁÌÂ		26041	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	yEj++8aWGUKR68nSFpU2UA	XrkE0HB3/E2SfxZqbGcUeA	
+%R	26189	4510	540	6	1	N	N	WS_Open	7	√⁄„«· «·—’›		26041	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	Py84t9aUp0G6pLJTehUWNw	5ir5peXWg0aeOJCd95PDww	
+%R	26190	4510	540	0	1	N	N	WS_Open	01	√⁄„«· «·ŒÊ«“Ìﬁ		26042	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	2g9OL9O510OiHZEQ5cZUmw	svOo8OyRH0W5TKbL/9QIXA	
+%R	26191	4510	540	1	1	N	N	WS_Open	02	√⁄„«· «·ﬁÊ«⁄œ		26042	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	Egk6x/7SgkGS/bKI6jJz1Q	iYHhlMhyp0SSGVDff5PliA	
+%R	26192	4510	540	2	1	N	N	WS_Open	03	√⁄„«· «·«⁄„œÂ		26042	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	CLrak3wVw0Kfah0RkEHQRw	ldHWZIDVW063In2WQdH5ig	
+%R	26193	4510	540	3	1	N	N	WS_Open	04	√⁄„«· «·„Œœ« 		26042	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	PAVDlP/43UmMKmQbNwzU8Q	c4v3Q3X9s0egXBSJJFGTHg	
+%R	26194	4510	540	4	1	N	N	WS_Open	05	√⁄„«· «·—ﬂ«∆“		26042	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	bkISEYVztUOmjREtSGktgw	frJW8WFY2UOzGWDLAlSqqg	
+%R	26195	4510	540	5	1	N	N	WS_Open	06	√⁄„«· «·»·«ÿ«  «·’‰œÊﬁÌÂ		26042	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	fvuA8YyGLkCpBl8e84/uvg	XrkE0HB3/E2SfxZqbGcUeA	
+%R	26196	4510	540	6	1	N	N	WS_Open	07	√⁄„«· «·—’›		26042	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	qt83G1xGqkqSS62Bl0+bRQ	5ir5peXWg0aeOJCd95PDww	
+%R	26197	4510	540	0	1	N	N	WS_Open	01	√⁄„«· «·ŒÊ«“Ìﬁ		26043	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	6cUBuLP1X0CnrqBvfBoboA	svOo8OyRH0W5TKbL/9QIXA	
+%R	26198	4510	540	1	1	N	N	WS_Open	02	√⁄„«· «·ﬁÊ«⁄œ		26043	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	UG9WYIPs+E+O7X8MvB0Ueg	iYHhlMhyp0SSGVDff5PliA	
+%R	26199	4510	540	2	1	N	N	WS_Open	03	√⁄„«· «·«⁄„œÂ		26043	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	IjpoPNPgpkCnWtu3YrH5lw	ldHWZIDVW063In2WQdH5ig	
+%R	26200	4510	540	3	1	N	N	WS_Open	04	√⁄„«· «·„Œœ« 		26043	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	ALCC8UKETEm+aem7/Scd1A	c4v3Q3X9s0egXBSJJFGTHg	
+%R	26201	4510	540	4	1	N	N	WS_Open	05	√⁄„«· «·—ﬂ«∆“		26043	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	Fhg+LPbjKk+GnjboT5vaRA	frJW8WFY2UOzGWDLAlSqqg	
+%R	26202	4510	540	5	1	N	N	WS_Open	06	√⁄„«· «·»·«ÿ«  «·’‰œÊﬁÌÂ		26043	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	7aTeyOuxdEWxHnAHNkLxZg	XrkE0HB3/E2SfxZqbGcUeA	
+%R	26203	4510	540	6	1	N	N	WS_Open	07	√⁄„«· «·—’›		26043	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	2GVSdvTyCU2HbbGM1MH+/w	5ir5peXWg0aeOJCd95PDww	
+%R	26204	4510	540	0	1	N	N	WS_Open	01	√⁄„«· «·ŒÊ«“Ìﬁ		26044	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	ZPeFjj01dU+or1hMRO7yoA	svOo8OyRH0W5TKbL/9QIXA	
+%R	26205	4510	540	1	1	N	N	WS_Open	02	√⁄„«· «·ﬁÊ«⁄œ		26044	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	tYOUdjOt8UKt8DuoN3lwiw	iYHhlMhyp0SSGVDff5PliA	
+%R	26206	4510	540	2	1	N	N	WS_Open	03	√⁄„«· «·«⁄„œÂ		26044	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	zZ98RZnMt0emdIQbnBrvQg	ldHWZIDVW063In2WQdH5ig	
+%R	26207	4510	540	3	1	N	N	WS_Open	04	√⁄„«· «·„Œœ« 		26044	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	/p1wND9QSkWXF2T9dOnr7A	c4v3Q3X9s0egXBSJJFGTHg	
+%R	26208	4510	540	4	1	N	N	WS_Open	05	√⁄„«· «·—ﬂ«∆“		26044	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	nro+mMtb2UiMJn7SeVWGYQ	frJW8WFY2UOzGWDLAlSqqg	
+%R	26209	4510	540	5	1	N	N	WS_Open	06	√⁄„«· «·»·«ÿ«  «·’‰œÊﬁÌÂ		26044	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	zYlZr3sOBEuwW2XJxIJ9oQ	XrkE0HB3/E2SfxZqbGcUeA	
+%R	26210	4510	540	6	1	N	N	WS_Open	07	√⁄„«· «·—’›		26044	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	6X+u3UZ+f0yu/kuuMXw8Cg	5ir5peXWg0aeOJCd95PDww	
+%R	26211	4510	540	2	1	N	N	WS_Open	01	√⁄„«· «·ŒÊ«“Ìﬁ		26045	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	dckswtNkpE+eHs+MKdFm1w	svOo8OyRH0W5TKbL/9QIXA	
+%R	26212	4510	540	3	1	N	N	WS_Open	02	√⁄„«· «·ﬁÊ«⁄œ		26045	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	obHz66bhQU6ILMe+RmPKwA	iYHhlMhyp0SSGVDff5PliA	
+%R	26213	4510	540	4	1	N	N	WS_Open	03	√⁄„«· «·«⁄„œÂ		26045	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	rgkeHM1RaEq6onSeCVsXQA	ldHWZIDVW063In2WQdH5ig	
+%R	26214	4510	540	5	1	N	N	WS_Open	04	√⁄„«· «·„Œœ« 		26045	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	unBTdbV5ok+5kbFWdG7yEg	c4v3Q3X9s0egXBSJJFGTHg	
+%R	26215	4510	540	6	1	N	N	WS_Open	05	√⁄„«· «·—ﬂ«∆“		26045	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	yUuDvD0O0UKPuM5QuqpuBA	frJW8WFY2UOzGWDLAlSqqg	
+%R	26216	4510	540	7	1	N	N	WS_Open	06	√⁄„«· «·»·«ÿ«  «·’‰œÊﬁÌÂ		26045	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	zu9qh3iE+0y762eXZeJPng	XrkE0HB3/E2SfxZqbGcUeA	
+%R	26217	4510	540	8	1	N	N	WS_Open	07	√⁄„«· «·—’›		26045	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	UN4wkj0yJkGXwNTMY4uutQ	5ir5peXWg0aeOJCd95PDww	
+%R	26225	4510	540	0	1	N	N	WS_Open	01	√⁄„«· «·ŒÊ«“Ìﬁ		26047	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	93Gz24pJL02xRdQcfvC7dQ	svOo8OyRH0W5TKbL/9QIXA	
+%R	26226	4510	540	1	1	N	N	WS_Open	02	√⁄„«· «·ﬁÊ«⁄œ		26047	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	syZgkbHIc0WXYQ9ka/DjIA	iYHhlMhyp0SSGVDff5PliA	
+%R	26227	4510	540	2	1	N	N	WS_Open	03	√⁄„«· «·«⁄„œÂ		26047	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	ryOYhgcl3kOA+BLmginD4Q	ldHWZIDVW063In2WQdH5ig	
+%R	26228	4510	540	3	1	N	N	WS_Open	04	√⁄„«· «·„Œœ« 		26047	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	5aWywOvbkkao6xPzHYG7fw	c4v3Q3X9s0egXBSJJFGTHg	
+%R	26229	4510	540	4	1	N	N	WS_Open	05	√⁄„«· «·—ﬂ«∆“		26047	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	qaU9MTNWM069YY/T3ShaFA	frJW8WFY2UOzGWDLAlSqqg	
+%R	26230	4510	540	5	1	N	N	WS_Open	06	√⁄„«· «·»·«ÿ«  «·’‰œÊﬁÌÂ		26047	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	RK4VQEGVpEyGQBMRrFVWUQ	XrkE0HB3/E2SfxZqbGcUeA	
+%R	26231	4510	540	6	1	N	N	WS_Open	07	√⁄„«· «·—’›		26047	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	M257wIo92U+J54zQFLXDnA	5ir5peXWg0aeOJCd95PDww	
+%R	26232	4510	540	0	1	N	N	WS_Open	01	√⁄„«· «·ŒÊ«“Ìﬁ		26048	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	bjQ3mDJ0/UmJuGyy7cz19g	svOo8OyRH0W5TKbL/9QIXA	
+%R	26233	4510	540	1	1	N	N	WS_Open	02	√⁄„«· «·ﬁÊ«⁄œ		26048	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	m3IHyLnWjE2N5QDR7UIELg	iYHhlMhyp0SSGVDff5PliA	
+%R	26234	4510	540	2	1	N	N	WS_Open	03	√⁄„«· «·«⁄„œÂ		26048	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	Ru14608c70OxJwzVHk4xFw	ldHWZIDVW063In2WQdH5ig	
+%R	26235	4510	540	3	1	N	N	WS_Open	04	√⁄„«· «·„Œœ« 		26048	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	neXPkh4dzEi+HwaA4dTQfA	c4v3Q3X9s0egXBSJJFGTHg	
+%R	26236	4510	540	4	1	N	N	WS_Open	05	√⁄„«· «·—ﬂ«∆“		26048	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	u212rFMWWES62ATCaJB8aQ	frJW8WFY2UOzGWDLAlSqqg	
+%R	26237	4510	540	5	1	N	N	WS_Open	06	√⁄„«· «·»·«ÿ«  «·’‰œÊﬁÌÂ		26048	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	p8aijgLhoUC8mz7YJcnPpg	XrkE0HB3/E2SfxZqbGcUeA	
+%R	26238	4510	540	6	1	N	N	WS_Open	07	√⁄„«· «·—’›		26048	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	696InzYPh0mU8xwe9QZIYw	5ir5peXWg0aeOJCd95PDww	
+%R	26239	4510	540	401	1	N	N	WS_Open	05	„ÕÊ—  R 205		26029	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	F9OWH0S24U+wt6+vgTwjSw		
+%R	26240	4510	540	501	1	N	N	WS_Open	06	„ÕÊ—  R 206		26029	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	vwdizNXoX0iH4rH0Swm11w		
+%R	26241	4510	540	601	1	N	N	WS_Open	07	„ÕÊ—  R 207		26029	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	1trh31KzWkKqszPJ38Y+mg		
+%R	26242	4510	540	1207	1	N	N	WS_Open	01	„ÕÊ—  R 101		26052	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	x2WER5UWxkCcsKG9IaRRMQ		
+%R	26243	4510	540	1307	1	N	N	WS_Open	02	„ÕÊ—  R 102		26052	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	WlNoL7yeF0Kt4BmoNIfmwQ		
+%R	26244	4510	540	1407	1	N	N	WS_Open	03	„ÕÊ—  R 103		26052	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	kLowZF8pxEC3OsxiWqDuHQ		
+%R	26245	4510	540	1507	1	N	N	WS_Open	04	„ÕÊ—  R 104		26052	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	ipPsyOM2dUqDOWD0kuaY7Q		
+%R	26246	4510	540	1607	1	N	N	WS_Open	05	„ÕÊ—  R 105		26052	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	7kIN5/vq0EqDat+OVfGZnQ		
+%R	26247	4510	540	1707	1	N	N	WS_Open	06	„ÕÊ—  R 106		26052	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	HswDN7XeDkqkSaK1mVN+Gg		
+%R	26248	4510	540	0	1	N	N	WS_Open	01	√⁄„«· «·ŒÊ«“Ìﬁ		26028	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	heVUH7VLx0mrJPAv30R+Jg	TLjHIwXxrUy3EUyteYViCQ	
+%R	26249	4510	540	101	1	N	N	WS_Open	02	√⁄„«· ﬁ«⁄œÂ „”·ÕÂ		26028	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	5T7rPuQHuEWaPLesNInJeg	YvJD4FTtjEmq9NkUMP3F2w	
+%R	26250	4510	540	201	1	N	N	WS_Open	03	√⁄„«· √⁄„œÂ «·»Õ—		26028	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	ENEGnKB1JUmcoi2jT8YMog		
+%R	26251	4510	540	301	1	N	N	WS_Open	04	√⁄„«· «·„ŒœÂ		26028	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	wWOPO96gjESLs7/fAcxURg		
+%R	26252	4510	540	401	1	N	N	WS_Open	05	√⁄„«· «·—ﬂ«∆“ «·œ«∆„Â		26028	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	A1c9HBgEbkmrZNMe9LDItw		
+%R	26253	4510	540	501	1	N	N	WS_Open	06	√⁄„«· «·—ﬂ«∆“ «·„ƒﬁ Â		26028	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	08VaP+gL502XHAQrfnY7Aw		
+%R	26254	4510	540	601	1	N	N	WS_Open	07	«·‘œÂ «·„⁄œ‰ÌÂ Ê«·Œ‘»ÌÂ ··«”ÿ„»		26028	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	AuuMdzfZa0OFiDosWUmYhw		
+%R	26255	4510	540	701	1	N	N	WS_Open	08	 ”·ÌÕ «·«”ÿ„»		26028	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	gk5N1xA7hUOYO57KMpuveQ		
+%R	26256	4510	540	801	1	N	N	WS_Open	09	’» «·«”ÿ„»		26028	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	X4kpG7knNECt8egphM+kmg		
+%R	26257	4510	540	0	1	N	N	WS_Open	01	√⁄„«· «·ŒÊ«“Ìﬁ		26032	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	jeAiM2rtR0S5AgliZes5Lw	jCwgWMm3c02xapTgpu1IBg	
+%R	26258	4510	540	1	1	N	N	WS_Open	02	√⁄„«· ﬁ«⁄œÂ „”·ÕÂ		26032	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	RJPc+KhScEuLlCFerNwbHQ	7//AsSi050yuFOeZribk8w	
+%R	26259	4510	540	2	1	N	N	WS_Open	03	√⁄„«· √⁄„œÂ «·»Õ—		26032	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	u9SbuDn7a0yeJCQId7LUyQ	FOjOMhJDp0S3DEPtwCZ+QQ	
+%R	26260	4510	540	3	1	N	N	WS_Open	04	√⁄„«· «·„ŒœÂ		26032	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	gJUxgpebWEiMG9ounwYgXw	GbgClw5HukOshnE54CRp7w	
+%R	26261	4510	540	4	1	N	N	WS_Open	05	√⁄„«· «·—ﬂ«∆“ «·œ«∆„Â		26032	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	dgakBmDGxEqgHbYoS5SrrA	/8iO/eqeC0+d02wlC+c0nw	
+%R	26262	4510	540	5	1	N	N	WS_Open	06	√⁄„«· «·—ﬂ«∆“ «·„ƒﬁ Â		26032	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	frtVJIJXtki+8x6yTx6P4w	VIALw2vnY0SPsbp0ZMXV7g	
+%R	26263	4510	540	6	1	N	N	WS_Open	07	«·‘œÂ «·„⁄œ‰ÌÂ Ê«·Œ‘»ÌÂ ··«”ÿ„»		26032	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	eqcsSNI0W0OEt+RQ4JsaBA	snLaHnhBnEeVXIKhmDy7yw	
+%R	26264	4510	540	7	1	N	N	WS_Open	08	 ”·ÌÕ «·«”ÿ„»		26032	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	ktcCsTF4dkCnQyhPTu9Fbg	RqA1/Ct2BUaHECWTqZddzA	
+%R	26265	4510	540	8	1	N	N	WS_Open	09	’» «·«”ÿ„»		26032	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	dSS/i/CVdEW04Yb8OXSW2Q	343uKfg/mkqg8Q1miSMEiw	
+%R	26266	4510	540	301	1	N	N	WS_Open	01	√⁄„«· ŒÊ«“Ìﬁ		26049	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	ABGRK8ukfkCoHjvH4s98xA		
+%R	26267	4510	540	401	1	N	N	WS_Open	02	√⁄„«· «·ﬁÊ«⁄œ		26049	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	AYr8honX4kO+u4Q3BrFsdQ		
+%R	26268	4510	540	701	1	N	N	WS_Open	03	√⁄„«· «·«⁄„œÂ		26049	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	Nsa2hQdoOUeRsXWiLl+ikw		
+%R	26269	4510	540	801	1	N	N	WS_Open	04	«·„Œœ…		26049	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	A31Nf4tWoUOeQ36YKLAQPA		
+%R	26270	4510	540	901	1	N	N	WS_Open	05	«·»·«ÿÂ		26049	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	usCTsj+LfEW8s8yVeDlYFA		
+%R	26271	4510	540	0	1	N	N	WS_Open	01	√⁄„«· ŒÊ«“Ìﬁ		26050	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	bPF8Xfb3HEeb/JAhKkAhQA	s+9VbPdaX0CJxAMDeBxijA	
+%R	26272	4510	540	1	1	N	N	WS_Open	02	√⁄„«· «·ﬁÊ«⁄œ		26050	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	3Oa9Mrmbj0SUWaquwF+n+Q	GKevSRQFvkaOOAtbvbfo9Q	
+%R	26273	4510	540	2	1	N	N	WS_Open	03	√⁄„«· «·«⁄„œÂ		26050	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	BHN1a7CrdUyf+JFbtzGaVw	hfcn7gOs3EeW8cArUs592A	
+%R	26274	4510	540	3	1	N	N	WS_Open	04	«·„Œœ…		26050	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	8JiKNwHuiUO4OOxl2qbysw	3KuG+g4KFEWG75NRrYNP3g	
+%R	26275	4510	540	4	1	N	N	WS_Open	05	«·»·«ÿÂ		26050	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	q/497SNfKEevSSb/ECmK6w	34FIpETGjUaUhbpfdNLgyA	
+%R	26276	4510	540	0	1	N	N	WS_Open	01	√⁄„«· ŒÊ«“Ìﬁ		26051	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	xA3i3bzwNUO63hw1zQXcLA	s+9VbPdaX0CJxAMDeBxijA	
+%R	26277	4510	540	1	1	N	N	WS_Open	02	√⁄„«· «·ﬁÊ«⁄œ		26051	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	eaITQl3EPkmw6JUHMu1NMg	GKevSRQFvkaOOAtbvbfo9Q	
+%R	26278	4510	540	2	1	N	N	WS_Open	03	√⁄„«· «·«⁄„œÂ		26051	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	WbrVom5GT0GsoN30sgTtCA	hfcn7gOs3EeW8cArUs592A	
+%R	26279	4510	540	3	1	N	N	WS_Open	04	«·„Œœ…		26051	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	UN8yl/V0wkmxGH9dWKJfcA	3KuG+g4KFEWG75NRrYNP3g	
+%R	26280	4510	540	4	1	N	N	WS_Open	05	«·»·«ÿÂ		26051	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	g9undT/Az0Wh0tECf8P6jA	34FIpETGjUaUhbpfdNLgyA	
+%R	26281	4510	540	0	1	N	N	WS_Open	10	«⁄„«· ﬁ«⁄œÂ ⁄«œÌÂ		26058	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	eYNwV4OPfEu/1i49WFj9pQ		
+%R	26282	4510	540	100	1	N	N	WS_Open	20	√⁄„«· ﬁ«⁄œÂ „”·ÕÂ		26058	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	6Y0/4+MVXEeBiLGufURAAg		
+%R	26283	4510	540	702	1	N	N	WS_Open	10	«·œÌ›—«„		26062	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	ebmXD0PTv0ONi8mfhBVAGA		
+%R	26284	4510	540	802	1	N	N	WS_Open	20	«·»·«ÿÂ «·”›·ÌÂ		26062	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	kTkp3AhPF0yhSklL+qxfBA		
+%R	26285	4510	540	902	1	N	N	WS_Open	40	«·ÊÌ»« 		26062	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	1/axPEvjB0axKQiLNTchAw		
+%R	26286	4510	540	1002	1	N	N	WS_Open	50	«·»·«ÿÂ «·⁄·ÊÌÂ		26062	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	BoCswS2FZUWLQVXAzw6rsw		
+%R	26287	4510	540	0	1	N	N	WS_Open	10	«⁄„«· ﬁ«⁄œÂ ⁄«œÌÂ		26065	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	748jGnIFFU61qBw4r9WvfQ	5ua1Y0G2RkWGjfy8ZNXyRg	
+%R	26288	4510	540	100	1	N	N	WS_Open	20	√⁄„«· ﬁ«⁄œÂ „”·ÕÂ		26065	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	+RV+Lp+nE0uCoBnNasNuhA	aQ47F5sbC0G5zLApYxmhSA	
+%R	26289	4510	540	702	1	N	N	WS_Open	10	«·œÌ›—«„		26069	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	pF+teMjc2UWhcXzTTs6I/w	+apqQ24Mv0+9SBQArza+fw	
+%R	26290	4510	540	802	1	N	N	WS_Open	20	«·»·«ÿÂ «·”›·ÌÂ		26069	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	tCbEsmp1DESRip0S5Wj/pQ	VaBkKuQFcEGTDjsV3EVPxg	
+%R	26291	4510	540	902	1	N	N	WS_Open	30	«·ÊÌ»« 		26069	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	R3cvtKJHCEWlXkFl4teGtw	ctCKae2Ou0WSLuQOeWcDNA	
+%R	26292	4510	540	1002	1	N	N	WS_Open	07	«·»·«ÿÂ «·⁄·ÊÌÂ		26069	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	nJ/GoVE9N06jTRs/ghkVwA	iA9TCEjGH0iU9EqaVE0YYA	
+%R	26293	4510	540	0	1	N	N	WS_Open	10	«⁄„«· ﬁ«⁄œÂ ⁄«œÌÂ		26072	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	q9gTSuDuU02lI5FpkvGr9w	5ua1Y0G2RkWGjfy8ZNXyRg	
+%R	26294	4510	540	100	1	N	N	WS_Open	20	√⁄„«· ﬁ«⁄œÂ „”·ÕÂ		26072	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	Mna5aNZBDEulMwHrgVzvCw	aQ47F5sbC0G5zLApYxmhSA	
+%R	26295	4510	540	702	1	N	N	WS_Open	10	«·œÌ›—«„		26076	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	2AcgrM4n7UGwHSEhqSVG8A	+apqQ24Mv0+9SBQArza+fw	
+%R	26296	4510	540	802	1	N	N	WS_Open	20	«·»·«ÿÂ «·”›·ÌÂ		26076	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	yEomAJ65vEucmT6C8jFSRw	VaBkKuQFcEGTDjsV3EVPxg	
+%R	26297	4510	540	902	1	N	N	WS_Open	30	«·ÊÌ»« 		26076	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	mjBI94xBiEi4vGgxL2PD+w	ctCKae2Ou0WSLuQOeWcDNA	
+%R	26298	4510	540	1002	1	N	N	WS_Open	40	«·»·«ÿÂ «·⁄·ÊÌÂ		26076	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	80xWSAO0yUOUmXyVUby8YA	iA9TCEjGH0iU9EqaVE0YYA	
+%R	26299	4510	540	0	1	N	N	WS_Open	10	«⁄„«· ﬁ«⁄œÂ ⁄«œÌÂ		26079	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	wOf8R2LsHEW31w2Xx+dhAg	5ua1Y0G2RkWGjfy8ZNXyRg	
+%R	26300	4510	540	100	1	N	N	WS_Open	20	√⁄„«· ﬁ«⁄œÂ „”·ÕÂ		26079	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	b9YThVBRdUuD6c+UHhvIhg	aQ47F5sbC0G5zLApYxmhSA	
+%R	26301	4510	540	702	1	N	N	WS_Open	10	«·œÌ›—«„		26083	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	1VuY65Vd0UeH2Sft/0zkwg	+apqQ24Mv0+9SBQArza+fw	
+%R	26302	4510	540	802	1	N	N	WS_Open	20	«·»·«ÿÂ «·”›·ÌÂ		26083	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	oIMoVgJ4/Uui+5nzSr8dvg	VaBkKuQFcEGTDjsV3EVPxg	
+%R	26303	4510	540	902	1	N	N	WS_Open	30	«·ÊÌ»« 		26083	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	FJNoiPMGtEKwYChLPvQ+sQ	ctCKae2Ou0WSLuQOeWcDNA	
+%R	26304	4510	540	1002	1	N	N	WS_Open	40	«·»·«ÿÂ «·⁄·ÊÌÂ		26083	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	eaM+jz1ylUmOsfRHFU5+rQ	iA9TCEjGH0iU9EqaVE0YYA	
+%R	26305	4510	540	0	1	N	N	WS_Open	10	«⁄„«· ﬁ«⁄œÂ ⁄«œÌÂ		26086	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	DFP5geYngECuDu+fGexDPg	5ua1Y0G2RkWGjfy8ZNXyRg	
+%R	26306	4510	540	100	1	N	N	WS_Open	20	√⁄„«· ﬁ«⁄œÂ „”·ÕÂ		26086	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	X5n4w8xdR0euXqmCKC4Bgg	aQ47F5sbC0G5zLApYxmhSA	
+%R	26307	4510	540	702	1	N	N	WS_Open	10	«·œÌ›—«„		26090	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	zhl6Qyh8Q0SNe+yFLV0c7A	+apqQ24Mv0+9SBQArza+fw	
+%R	26308	4510	540	802	1	N	N	WS_Open	20	«·»·«ÿÂ «·”›·ÌÂ		26090	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	shn+BimauUOZ2mdxeqOadw	VaBkKuQFcEGTDjsV3EVPxg	
+%R	26309	4510	540	902	1	N	N	WS_Open	30	«·ÊÌ»« 		26090	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	V2i7ti5QwUqPYXPuVdZ2og	ctCKae2Ou0WSLuQOeWcDNA	
+%R	26310	4510	540	1002	1	N	N	WS_Open	4	«·»·«ÿÂ «·⁄·ÊÌÂ		26090	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	z3xbbIgLZki4rRQO2DCRiA	iA9TCEjGH0iU9EqaVE0YYA	
+%R	26311	4510	540	0	1	N	N	WS_Open	10	«⁄„«· ﬁ«⁄œÂ ⁄«œÌÂ		26093	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	oBT/kwQNu0OhrZg7UK284A	5ua1Y0G2RkWGjfy8ZNXyRg	
+%R	26312	4510	540	100	1	N	N	WS_Open	20	√⁄„«· ﬁ«⁄œÂ „”·ÕÂ		26093	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	2lzfvMGkpEOSeQmAGQxybw	aQ47F5sbC0G5zLApYxmhSA	
+%R	26313	4510	540	702	1	N	N	WS_Open	10	«·œÌ›—«„		26097	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	KtSUYGVfHEG3/nbzWsZ2rA	+apqQ24Mv0+9SBQArza+fw	
+%R	26314	4510	540	802	1	N	N	WS_Open	20	«·»·«ÿÂ «·”›·ÌÂ		26097	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	hG7zfRjqA0+0tt2xnJrJNQ	VaBkKuQFcEGTDjsV3EVPxg	
+%R	26315	4510	540	902	1	N	N	WS_Open	30	«·ÊÌ»« 		26097	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	zWK66EuoMEmGmgAgu3XP/A	ctCKae2Ou0WSLuQOeWcDNA	
+%R	26316	4510	540	1002	1	N	N	WS_Open	4	«·»·«ÿÂ «·⁄·ÊÌÂ		26097	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	jcZyn1VcZEy94wU0pzkPKw	iA9TCEjGH0iU9EqaVE0YYA	
+%R	26317	4510	540	0	1	N	N	WS_Open	10	«⁄„«· ﬁ«⁄œÂ ⁄«œÌÂ		26100	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	hfkQMe3lWESFG4kqXwszWg	5ua1Y0G2RkWGjfy8ZNXyRg	
+%R	26318	4510	540	100	1	N	N	WS_Open	20	√⁄„«· ﬁ«⁄œÂ „”·ÕÂ		26100	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	KOMMuS74LEiLsPU1xPfkEg	aQ47F5sbC0G5zLApYxmhSA	
+%R	26319	4510	540	702	1	N	N	WS_Open	10	«·œÌ›—«„		26104	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	STIciZ0kUkGVPM1y/uCpFw	+apqQ24Mv0+9SBQArza+fw	
+%R	26320	4510	540	802	1	N	N	WS_Open	20	«·»·«ÿÂ «·”›·ÌÂ		26104	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	H31+7h7aeUmfXIUvM8OOMw	VaBkKuQFcEGTDjsV3EVPxg	
+%R	26321	4510	540	902	1	N	N	WS_Open	30	«·ÊÌ»« 		26104	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	CNm0rbEGNEmpZQwm1RXZCA	ctCKae2Ou0WSLuQOeWcDNA	
+%R	26322	4510	540	1002	1	N	N	WS_Open	4	«·»·«ÿÂ «·⁄·ÊÌÂ		26104	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	/eZ9eJJ75E+fUHDapkx+1A	iA9TCEjGH0iU9EqaVE0YYA	
+%R	26323	4510	540	0	1	N	N	WS_Open	10	«⁄„«· ﬁ«⁄œÂ ⁄«œÌÂ		26107	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	DWqcD6RZPUO8wtaJkKAD8Q	5ua1Y0G2RkWGjfy8ZNXyRg	
+%R	26324	4510	540	100	1	N	N	WS_Open	20	√⁄„«· ﬁ«⁄œÂ „”·ÕÂ		26107	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	P+gj+OQ3FE6FDSYQVOhZdQ	aQ47F5sbC0G5zLApYxmhSA	
+%R	26325	4510	540	702	1	N	N	WS_Open	10	«·œÌ›—«„		26111	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	YEP4vsIy6US68ntvu1f+WQ	+apqQ24Mv0+9SBQArza+fw	
+%R	26326	4510	540	802	1	N	N	WS_Open	20	«·»·«ÿÂ «·”›·ÌÂ		26111	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	Yomnfi9JYUy1sq9oHC9CSg	VaBkKuQFcEGTDjsV3EVPxg	
+%R	26327	4510	540	902	1	N	N	WS_Open	30	«·ÊÌ»« 		26111	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	lR4TLYMhyEu/t9x3QTgK6w	ctCKae2Ou0WSLuQOeWcDNA	
+%R	26328	4510	540	1002	1	N	N	WS_Open	40	«·»·«ÿÂ «·⁄·ÊÌÂ		26111	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	l2/OKf7eoU+Ue/ncXJ7Yzw	iA9TCEjGH0iU9EqaVE0YYA	
+%R	26329	4510	540	0	1	N	N	WS_Open	10	«⁄„«· ﬁ«⁄œÂ ⁄«œÌÂ		26114	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	5oVwhCE+FEKLpzmpF+Dk1A	5ua1Y0G2RkWGjfy8ZNXyRg	
+%R	26330	4510	540	100	1	N	N	WS_Open	20	√⁄„«· ﬁ«⁄œÂ „”·ÕÂ		26114	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	pAVXb6Nup0+T/bO0+oVwCw	aQ47F5sbC0G5zLApYxmhSA	
+%R	26331	4510	540	702	1	N	N	WS_Open	10	«·œÌ›—«„		26118	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	nd6yuWssA0Oy6oypS/Ij8Q	+apqQ24Mv0+9SBQArza+fw	
+%R	26332	4510	540	802	1	N	N	WS_Open	20	«·»·«ÿÂ «·”›·ÌÂ		26118	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	0bd4IzFW6EWkFGV85BdPkg	VaBkKuQFcEGTDjsV3EVPxg	
+%R	26333	4510	540	902	1	N	N	WS_Open	30	«·ÊÌ»« 		26118	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	iiOCm5Lux0yZZ49r2r6dZA	ctCKae2Ou0WSLuQOeWcDNA	
+%R	26334	4510	540	1002	1	N	N	WS_Open	40	«·»·«ÿÂ «·⁄·ÊÌÂ		26118	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	1zKOCDqJyEShW5VAU70Veg	iA9TCEjGH0iU9EqaVE0YYA	
+%R	26335	4510	540	0	1	N	N	WS_Open	10	«⁄„«· ﬁ«⁄œÂ ⁄«œÌÂ		26121	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	ywoFad1JOUW2C8q+R9PdnA	5ua1Y0G2RkWGjfy8ZNXyRg	
+%R	26336	4510	540	100	1	N	N	WS_Open	20	√⁄„«· ﬁ«⁄œÂ „”·ÕÂ		26121	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	IcbZnXgc/UWql/lzvKZcKQ	aQ47F5sbC0G5zLApYxmhSA	
+%R	26337	4510	540	702	1	N	N	WS_Open	10	«·œÌ›—«„		26125	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	XIRHqOIup02t2AAIBOJFLg	+apqQ24Mv0+9SBQArza+fw	
+%R	26338	4510	540	802	1	N	N	WS_Open	20	«·»·«ÿÂ «·”›·ÌÂ		26125	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	2r9UCcW5CUelPUgksO/xSw	VaBkKuQFcEGTDjsV3EVPxg	
+%R	26339	4510	540	902	1	N	N	WS_Open	30	«·ÊÌ»« 		26125	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	H2OCVNdnRESg8wRrCikuwQ	ctCKae2Ou0WSLuQOeWcDNA	
+%R	26340	4510	540	1002	1	N	N	WS_Open	40	«·»·«ÿÂ «·⁄·ÊÌÂ		26125	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	rqh1X4OEdkKfeXDJToeyew	iA9TCEjGH0iU9EqaVE0YYA	
+%R	26341	4510	540	0	1	N	N	WS_Open	10	«⁄„«· ﬁ«⁄œÂ ⁄«œÌÂ		26128	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	rkzxfqOufUSTullmE+9uKg	5ua1Y0G2RkWGjfy8ZNXyRg	
+%R	26342	4510	540	100	1	N	N	WS_Open	20	√⁄„«· ﬁ«⁄œÂ „”·ÕÂ		26128	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	OM0iiY9xyUimPsSFsXoVyA	aQ47F5sbC0G5zLApYxmhSA	
+%R	26343	4510	540	702	1	N	N	WS_Open	10	«·œÌ›—«„		26132	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	IogRaEXaBUKaStMB59DZag	+apqQ24Mv0+9SBQArza+fw	
+%R	26344	4510	540	802	1	N	N	WS_Open	20	«·»·«ÿÂ «·”›·ÌÂ		26132	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	sxjPmcytUki2+taicn3IZg	VaBkKuQFcEGTDjsV3EVPxg	
+%R	26345	4510	540	902	1	N	N	WS_Open	30	«·ÊÌ»« 		26132	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	daDGiDGNXU2PpS0ZMq7ETw	ctCKae2Ou0WSLuQOeWcDNA	
+%R	26346	4510	540	1002	1	N	N	WS_Open	40	«·»·«ÿÂ «·⁄·ÊÌÂ		26132	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	fqxxmoUODESzcErLfbHlgg	iA9TCEjGH0iU9EqaVE0YYA	
+%R	26347	4510	540	0	1	N	N	WS_Open	10	«⁄„«· ﬁ«⁄œÂ ⁄«œÌÂ		26135	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	xi5uYwP4o0+rgrs32KZygg	5ua1Y0G2RkWGjfy8ZNXyRg	
+%R	26348	4510	540	100	1	N	N	WS_Open	20	√⁄„«· ﬁ«⁄œÂ „”·ÕÂ		26135	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	lPb3f8PYV0Clypb6qEOvbg	aQ47F5sbC0G5zLApYxmhSA	
+%R	26349	4510	540	702	1	N	N	WS_Open	10	«·œÌ›—«„		26139	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	rfoPQf4OSEm1wPze18vfcQ	+apqQ24Mv0+9SBQArza+fw	
+%R	26350	4510	540	802	1	N	N	WS_Open	20	«·»·«ÿÂ «·”›·ÌÂ		26139	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	V3MlDpxtDUOQHw7HKPCrVw	VaBkKuQFcEGTDjsV3EVPxg	
+%R	26351	4510	540	902	1	N	N	WS_Open	30	«·ÊÌ»« 		26139	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	oIzONPOecE2y3dxVDXe/iw	ctCKae2Ou0WSLuQOeWcDNA	
+%R	26352	4510	540	1002	1	N	N	WS_Open	40	«·»·«ÿÂ «·⁄·ÊÌÂ		26139	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	jhSN0qv9C0Op6OLQ0Fmn0w	iA9TCEjGH0iU9EqaVE0YYA	
+%R	26353	4510	540	0	1	N	N	WS_Open	10	«⁄„«· ﬁ«⁄œÂ ⁄«œÌÂ		26142	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	O7lQwXSQtkyvh384Uy2J9g	5ua1Y0G2RkWGjfy8ZNXyRg	
+%R	26354	4510	540	100	1	N	N	WS_Open	20	√⁄„«· ﬁ«⁄œÂ „”·ÕÂ		26142	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	BNv9WC4As0a9Ml1OpWC9jA	aQ47F5sbC0G5zLApYxmhSA	
+%R	26355	4510	540	702	1	N	N	WS_Open	10	«·œÌ›—«„		26146	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	OxmvoVNvQkqZTylrjaDP9g	+apqQ24Mv0+9SBQArza+fw	
+%R	26356	4510	540	802	1	N	N	WS_Open	20	«·»·«ÿÂ «·”›·ÌÂ		26146	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	jgNF3AXbwUiUX2BnQPtbuA	VaBkKuQFcEGTDjsV3EVPxg	
+%R	26357	4510	540	902	1	N	N	WS_Open	30	«·ÊÌ»« 		26146	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	69faccbun0mawYD80iJ4lw	ctCKae2Ou0WSLuQOeWcDNA	
+%R	26358	4510	540	1002	1	N	N	WS_Open	40	«·»·«ÿÂ «·⁄·ÊÌÂ		26146	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	r1VqonJqcE+lMcB2OjqkoA	iA9TCEjGH0iU9EqaVE0YYA	
+%R	26359	4510	540	0	1	N	N	WS_Open	10	«⁄„«· ﬁ«⁄œÂ ⁄«œÌÂ		26149	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	MTy+KzC3GE+atM/WsTeSoQ	5ua1Y0G2RkWGjfy8ZNXyRg	
+%R	26360	4510	540	100	1	N	N	WS_Open	20	√⁄„«· ﬁ«⁄œÂ „”·ÕÂ		26149	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	hi2WhIuvikqIXSw4loKfEg	aQ47F5sbC0G5zLApYxmhSA	
+%R	26361	4510	540	702	1	N	N	WS_Open	10	«·œÌ›—«„		26153	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	AxEzrP4G8EyrFOlmfuaUBw	+apqQ24Mv0+9SBQArza+fw	
+%R	26362	4510	540	802	1	N	N	WS_Open	20	«·»·«ÿÂ «·”›·ÌÂ		26153	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	TsxDbwJ1TEO3ijmBplHJfg	VaBkKuQFcEGTDjsV3EVPxg	
+%R	26363	4510	540	902	1	N	N	WS_Open	30	«·ÊÌ»« 		26153	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	HbK1zIs74EqajP8kfbV/MQ	ctCKae2Ou0WSLuQOeWcDNA	
+%R	26364	4510	540	1002	1	N	N	WS_Open	40	«·»·«ÿÂ «·⁄·ÊÌÂ		26153	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	HF2zxJoJm0q+0y/qCoKZZA	iA9TCEjGH0iU9EqaVE0YYA	
+%R	26365	4510	540	0	1	N	N	WS_Open	10	«⁄„«· ﬁ«⁄œÂ ⁄«œÌÂ		26156	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	JHDdFtWCQkSl2yowEGYV7w	5ua1Y0G2RkWGjfy8ZNXyRg	
+%R	26366	4510	540	100	1	N	N	WS_Open	20	√⁄„«· ﬁ«⁄œÂ „”·ÕÂ		26156	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	A6OyMbWe2EOrHvgGRBJvjg	aQ47F5sbC0G5zLApYxmhSA	
+%R	26367	4510	540	702	1	N	N	WS_Open	10	«·œÌ›—«„		26160	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	W7vR2UqFK0yCJuaTrjQKpg	+apqQ24Mv0+9SBQArza+fw	
+%R	26368	4510	540	802	1	N	N	WS_Open	20	«·»·«ÿÂ «·”›·ÌÂ		26160	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	CYBZXLMQH0G+6Uvkb7kCbQ	VaBkKuQFcEGTDjsV3EVPxg	
+%R	26369	4510	540	902	1	N	N	WS_Open	30	«·ÊÌ»« 		26160	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	wduXYrSnKkSfYy61K8nlLQ	ctCKae2Ou0WSLuQOeWcDNA	
+%R	26370	4510	540	1002	1	N	N	WS_Open	40	«·»·«ÿÂ «·⁄·ÊÌÂ		26160	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	QSTozokh5kqJcrCgiYtqIg	iA9TCEjGH0iU9EqaVE0YYA	
+%R	26371	4510	540	0	1	N	N	WS_Open	10	«⁄„«· ﬁ«⁄œÂ ⁄«œÌÂ		26163	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	CZW1zz0b2E+RJ6SIT6xJEg	5ua1Y0G2RkWGjfy8ZNXyRg	
+%R	26372	4510	540	100	1	N	N	WS_Open	20	√⁄„«· ﬁ«⁄œÂ „”·ÕÂ		26163	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	+eji34meO0yTqDRX2W2UdA	aQ47F5sbC0G5zLApYxmhSA	
+%R	26373	4510	540	702	1	N	N	WS_Open	10	«·œÌ›—«„		26167	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	zQ70kBDf4U+SML/Z650dww	+apqQ24Mv0+9SBQArza+fw	
+%R	26374	4510	540	802	1	N	N	WS_Open	20	«·»·«ÿÂ «·”›·ÌÂ		26167	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	7JxpHXpX00KozoHkJ2qAmg	VaBkKuQFcEGTDjsV3EVPxg	
+%R	26375	4510	540	902	1	N	N	WS_Open	30	«·ÊÌ»« 		26167	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	FRO6cUw92keyogcwR3KTLg	ctCKae2Ou0WSLuQOeWcDNA	
+%R	26376	4510	540	1002	1	N	N	WS_Open	40	«·»·«ÿÂ «·⁄·ÊÌÂ		26167	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	z4ZP+60kqUi/jilh7Vx3tw	iA9TCEjGH0iU9EqaVE0YYA	
+%R	26377	4510	540	0	1	N	N	WS_Open	10	«⁄„«· ﬁ«⁄œÂ ⁄«œÌÂ		26170	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	kGESPooqOESiz1zzqlFEww	5ua1Y0G2RkWGjfy8ZNXyRg	
+%R	26378	4510	540	100	1	N	N	WS_Open	20	√⁄„«· ﬁ«⁄œÂ „”·ÕÂ		26170	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	UlW97oYBs0iKSLiBg3rpfw	aQ47F5sbC0G5zLApYxmhSA	
+%R	26379	4510	540	702	1	N	N	WS_Open	10	«·œÌ›—«„		26174	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	Eie/894ZwkSeZI+AakveqQ	+apqQ24Mv0+9SBQArza+fw	
+%R	26380	4510	540	802	1	N	N	WS_Open	20	«·»·«ÿÂ «·”›·ÌÂ		26174	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	/W0Xb1DzDky4DhHOp+q6PA	VaBkKuQFcEGTDjsV3EVPxg	
+%R	26381	4510	540	902	1	N	N	WS_Open	30	«·ÊÌ»« 		26174	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	eWYxpqf49UWWkHNfOF1FqQ	ctCKae2Ou0WSLuQOeWcDNA	
+%R	26382	4510	540	1002	1	N	N	WS_Open	40	«·»·«ÿÂ «·⁄·ÊÌÂ		26174	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	49wudN63ZkOwhhoTQ0kLIg	iA9TCEjGH0iU9EqaVE0YYA	
+%R	26383	4510	540	0	1	N	N	WS_Open	10	«⁄„«· ﬁ«⁄œÂ ⁄«œÌÂ		26177	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	E6Pm7Sjb+UST4SYv7a+PuQ	5ua1Y0G2RkWGjfy8ZNXyRg	
+%R	26384	4510	540	100	1	N	N	WS_Open	20	√⁄„«· ﬁ«⁄œÂ „”·ÕÂ		26177	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	cIsFqbNniEGfyjry0LXZWw	aQ47F5sbC0G5zLApYxmhSA	
+%R	26385	4510	540	702	1	N	N	WS_Open	10	«·œÌ›—«„		26181	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	Os38oRpMmEinOOPHKrZaSw	+apqQ24Mv0+9SBQArza+fw	
+%R	26386	4510	540	802	1	N	N	WS_Open	20	«·»·«ÿÂ «·”›·ÌÂ		26181	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	NROrmn4cTUK8UGQGntvM7A	VaBkKuQFcEGTDjsV3EVPxg	
+%R	26387	4510	540	902	1	N	N	WS_Open	30	«·ÊÌ»« 		26181	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	6rt4y9FDvUSCo0SAuVDWjg	ctCKae2Ou0WSLuQOeWcDNA	
+%R	26388	4510	540	1002	1	N	N	WS_Open	40	«·»·«ÿÂ «·⁄·ÊÌÂ		26181	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	K4w4nl3ho0iALMYiovA/6g	iA9TCEjGH0iU9EqaVE0YYA	
+%R	26389	4510	540	0	1	N	N	WS_Open	10	«⁄„«· ﬁ«⁄œÂ ⁄«œÌÂ		26184	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	bKMml/feukectX3+xgBNMg	5ua1Y0G2RkWGjfy8ZNXyRg	
+%R	26390	4510	540	100	1	N	N	WS_Open	20	√⁄„«· ﬁ«⁄œÂ „”·ÕÂ		26184	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	RPeQS6ft0ke7FRUXVRt2DA	aQ47F5sbC0G5zLApYxmhSA	
+%R	26391	4510	540	702	1	N	N	WS_Open	10	«·œÌ›—«„		26188	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	jPbd08ilGUacvzp9C0GXMA	+apqQ24Mv0+9SBQArza+fw	
+%R	26392	4510	540	802	1	N	N	WS_Open	20	«·»·«ÿÂ «·”›·ÌÂ		26188	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	6Ray0kfmVk6B7p4sgUwMww	VaBkKuQFcEGTDjsV3EVPxg	
+%R	26393	4510	540	902	1	N	N	WS_Open	30	«·ÊÌ»« 		26188	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	SO4i8uIU2kGraa2U/OzNYQ	ctCKae2Ou0WSLuQOeWcDNA	
+%R	26394	4510	540	1002	1	N	N	WS_Open	40	«·»·«ÿÂ «·⁄·ÊÌÂ		26188	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	0bGlc7ZiYk6jJvL4RR2R5g	iA9TCEjGH0iU9EqaVE0YYA	
+%R	26395	4510	540	0	1	N	N	WS_Open	110	«⁄„«· ﬁ«⁄œÂ ⁄«œÌÂ		26191	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	0Jv0jzXSXUWZ98RjMx+ATA	5ua1Y0G2RkWGjfy8ZNXyRg	
+%R	26396	4510	540	100	1	N	N	WS_Open	20	√⁄„«· ﬁ«⁄œÂ „”·ÕÂ		26191	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	5y99GVxHL0urXpnK+upu5A	aQ47F5sbC0G5zLApYxmhSA	
+%R	26397	4510	540	702	1	N	N	WS_Open	10	«·œÌ›—«„		26195	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	ioWizvx2n0W6B/ZXe/FgKA	+apqQ24Mv0+9SBQArza+fw	
+%R	26398	4510	540	802	1	N	N	WS_Open	20	«·»·«ÿÂ «·”›·ÌÂ		26195	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	ySS/w7267U2DvoAvwgFW+A	VaBkKuQFcEGTDjsV3EVPxg	
+%R	26399	4510	540	902	1	N	N	WS_Open	30	«·ÊÌ»« 		26195	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	VcwBzClJ0kaYRsOCYNSlfQ	ctCKae2Ou0WSLuQOeWcDNA	
+%R	26400	4510	540	1002	1	N	N	WS_Open	40	«·»·«ÿÂ «·⁄·ÊÌÂ		26195	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	dIfAVlb190C6MYEKclQIrg	iA9TCEjGH0iU9EqaVE0YYA	
+%R	26401	4510	540	0	1	N	N	WS_Open	10	«⁄„«· ﬁ«⁄œÂ ⁄«œÌÂ		26198	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	oP7UGRp11kiNQwHxZvJZnQ	5ua1Y0G2RkWGjfy8ZNXyRg	
+%R	26402	4510	540	100	1	N	N	WS_Open	20	√⁄„«· ﬁ«⁄œÂ „”·ÕÂ		26198	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	HST5+CmaqUOO5OWYMQkPsQ	aQ47F5sbC0G5zLApYxmhSA	
+%R	26403	4510	540	702	1	N	N	WS_Open	10	«·œÌ›—«„		26202	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	XSOhVvr/w0WZ7J47ANLbpQ	+apqQ24Mv0+9SBQArza+fw	
+%R	26404	4510	540	802	1	N	N	WS_Open	20	«·»·«ÿÂ «·”›·ÌÂ		26202	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	S/mIPIE65kKNmuZR9jj37A	VaBkKuQFcEGTDjsV3EVPxg	
+%R	26405	4510	540	902	1	N	N	WS_Open	30	«·ÊÌ»« 		26202	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	F3BhrkPDvUWgbS35QVu9DA	ctCKae2Ou0WSLuQOeWcDNA	
+%R	26406	4510	540	1002	1	N	N	WS_Open	40	«·»·«ÿÂ «·⁄·ÊÌÂ		26202	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	XBHxSHNlFUCFvXIsZ/kmGw	iA9TCEjGH0iU9EqaVE0YYA	
+%R	26407	4510	540	0	1	N	N	WS_Open	10	«⁄„«· ﬁ«⁄œÂ ⁄«œÌÂ		26205	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	WOkaU0wZ30ilnqpHI5Jl1g	5ua1Y0G2RkWGjfy8ZNXyRg	
+%R	26408	4510	540	100	1	N	N	WS_Open	20	√⁄„«· ﬁ«⁄œÂ „”·ÕÂ		26205	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	Dd/VimcF4ka1O/v/gMocYg	aQ47F5sbC0G5zLApYxmhSA	
+%R	26409	4510	540	702	1	N	N	WS_Open	10	«·œÌ›—«„		26209	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	DotwCFtdckasfKkhtubfCA	+apqQ24Mv0+9SBQArza+fw	
+%R	26410	4510	540	802	1	N	N	WS_Open	20	«·»·«ÿÂ «·”›·ÌÂ		26209	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	E78t5C8AyU+fk5nk8jeCGw	VaBkKuQFcEGTDjsV3EVPxg	
+%R	26411	4510	540	902	1	N	N	WS_Open	30	«·ÊÌ»« 		26209	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	faj269dONUeh+17UJU9p+A	ctCKae2Ou0WSLuQOeWcDNA	
+%R	26412	4510	540	1002	1	N	N	WS_Open	40	«·»·«ÿÂ «·⁄·ÊÌÂ		26209	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	TsAV+GQ7DUureazq3EFwlQ	iA9TCEjGH0iU9EqaVE0YYA	
+%R	26413	4510	540	0	1	N	N	WS_Open	10	«⁄„«· ﬁ«⁄œÂ ⁄«œÌÂ		26212	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	mgO4bWu3JkmvB59E0XWr6Q	5ua1Y0G2RkWGjfy8ZNXyRg	
+%R	26414	4510	540	100	1	N	N	WS_Open	20	√⁄„«· ﬁ«⁄œÂ „”·ÕÂ		26212	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	YV4FuC7WZ0Ga1BuZcZ29Uw	aQ47F5sbC0G5zLApYxmhSA	
+%R	26415	4510	540	702	1	N	N	WS_Open	10	«·œÌ›—«„		26216	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	fLjODZJHcU6buRRdpCpXzg	+apqQ24Mv0+9SBQArza+fw	
+%R	26416	4510	540	802	1	N	N	WS_Open	20	«·»·«ÿÂ «·”›·ÌÂ		26216	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	F5St5TkMpUmi8AWID5X5yQ	VaBkKuQFcEGTDjsV3EVPxg	
+%R	26417	4510	540	902	1	N	N	WS_Open	30	«·ÊÌ»« 		26216	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	3D1m0qinakuas7CAzzHcFQ	ctCKae2Ou0WSLuQOeWcDNA	
+%R	26418	4510	540	1002	1	N	N	WS_Open	40	«·»·«ÿÂ «·⁄·ÊÌÂ		26216	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	ui5KYHeLAUCT9Fy85djdTg	iA9TCEjGH0iU9EqaVE0YYA	
+%R	26425	4510	540	0	1	N	N	WS_Open	10	«⁄„«· ﬁ«⁄œÂ ⁄«œÌÂ		26226	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	1EFY50EHV0eRq18IFHEJ7g	5ua1Y0G2RkWGjfy8ZNXyRg	
+%R	26426	4510	540	100	1	N	N	WS_Open	20	√⁄„«· ﬁ«⁄œÂ „”·ÕÂ		26226	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	BHBn9M7UEkmQTcg/QjiNgA	aQ47F5sbC0G5zLApYxmhSA	
+%R	26427	4510	540	702	1	N	N	WS_Open	10	«·œÌ›—«„		26230	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	47wTCk8lQEyU+M4x7hZ1lw	+apqQ24Mv0+9SBQArza+fw	
+%R	26428	4510	540	802	1	N	N	WS_Open	20	«·»·«ÿÂ «·”›·ÌÂ		26230	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	nJTcKbXVXk+/ujHQYVKWQA	VaBkKuQFcEGTDjsV3EVPxg	
+%R	26429	4510	540	902	1	N	N	WS_Open	30	«·ÊÌ»« 		26230	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	llvlPCL1Ykuq23a0KQClyQ	ctCKae2Ou0WSLuQOeWcDNA	
+%R	26430	4510	540	1002	1	N	N	WS_Open	40	«·»·«ÿÂ «·⁄·ÊÌÂ		26230	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	uW7IQH7Sv0SW4uy007aheA	iA9TCEjGH0iU9EqaVE0YYA	
+%R	26431	4510	540	0	1	N	N	WS_Open	10	«⁄„«· ﬁ«⁄œÂ ⁄«œÌÂ		26233	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	2UhChIFGEk+IWyCQ/dleqQ	5ua1Y0G2RkWGjfy8ZNXyRg	
+%R	26432	4510	540	100	1	N	N	WS_Open	20	√⁄„«· ﬁ«⁄œÂ „”·ÕÂ		26233	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	9grEhVOWk0+G7IMILFvaxg	aQ47F5sbC0G5zLApYxmhSA	
+%R	26433	4510	540	702	1	N	N	WS_Open	10	«·œÌ›—«„		26237	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	jeSmI6/fKUy4vFgqBW1JqQ	+apqQ24Mv0+9SBQArza+fw	
+%R	26434	4510	540	802	1	N	N	WS_Open	20	«·»·«ÿÂ «·”›·ÌÂ		26237	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	zOgLSUo8LE+TxwpFKzYz+g	VaBkKuQFcEGTDjsV3EVPxg	
+%R	26435	4510	540	902	1	N	N	WS_Open	30	«·ÊÌ»« 		26237	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	DkvYKSh5QkOPJmbeaTNk4g	ctCKae2Ou0WSLuQOeWcDNA	
+%R	26436	4510	540	1002	1	N	N	WS_Open	40	«·»·«ÿÂ «·⁄·ÊÌÂ		26237	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	d/Du/S00HkuL0f8ZXf2HrA	iA9TCEjGH0iU9EqaVE0YYA	
+%R	26437	4510	540	1	1	N	N	WS_Open	20	√⁄„«· ﬁÊ«⁄œ „”·ÕÂ		26267	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	TV1RKOlh5k60RmbcAqwKHA		
+%R	26438	4510	540	0	1	N	N	WS_Open	10	√⁄„«· ﬁÊ«⁄œ ⁄«œÌÂ		26267	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	sLeXGQaxhE+jagdrBzICzw		
+%R	26439	4510	540	0	1	N	N	WS_Open	10	√⁄„«· ﬁÊ«⁄œ ⁄«œÌÂ		26272	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	blNGNJJb/U6uaUTe0RbYMA	RR+TaaPUoEmKIn9Ueh4dhw	
+%R	26440	4510	540	1	1	N	N	WS_Open	20	√⁄„«· ﬁÊ«⁄œ „”·ÕÂ		26272	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	Z36AGNaaYkGZrZXFk5QEhw	Pz0Ar9M4PU+jAkl9/8rCPw	
+%R	26441	4510	540	0	1	N	N	WS_Open	10	√⁄„«· ﬁÊ«⁄œ ⁄«œÌÂ		26277	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	zIkALdHeHUmeDpHJMMlsHg	RR+TaaPUoEmKIn9Ueh4dhw	
+%R	26442	4510	540	1	1	N	N	WS_Open	20	√⁄„«· ﬁÊ«⁄œ „”·ÕÂ		26277	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	Lr7KwK+TCUCGcUIYUmYUEQ	Pz0Ar9M4PU+jAkl9/8rCPw	
+%R	26443	4510	540	1102	1	N	N	WS_Open	01	√⁄„«· ‰Â«∆ÌÂ		26286	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	RgxoLlsFlk2o6OxW/4puWQ		
+%R	26444	4510	540	1102	1	N	N	WS_Open	10	√⁄„«· ‰Â«∆ÌÂ		26292	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	hegNVwjJN063L/sRYzLFgw	11h0U0pKEkGkAgVSsJrN9A	
+%R	26445	4510	540	1102	1	N	N	WS_Open	10	√⁄„«· ‰Â«∆ÌÂ		26298	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	xfRUzbY0AESHoDCdJJSfuA	11h0U0pKEkGkAgVSsJrN9A	
+%R	26446	4510	540	1102	1	N	N	WS_Open	01	√⁄„«· ‰Â«∆ÌÂ		26304	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	IjAa6SiexUK59uS1mbpDAg	11h0U0pKEkGkAgVSsJrN9A	
+%R	26447	4510	540	1102	1	N	N	WS_Open	10	√⁄„«· ‰Â«∆ÌÂ		26310	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	r+uDDjVHU0KLHEpsmX+iTQ	11h0U0pKEkGkAgVSsJrN9A	
+%R	26448	4510	540	1102	1	N	N	WS_Open	10	√⁄„«· ‰Â«∆ÌÂ		26316	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	MFV5xRRfwUmpr8dOdLJAuA	11h0U0pKEkGkAgVSsJrN9A	
+%R	26449	4510	540	1102	1	N	N	WS_Open	10	√⁄„«· ‰Â«∆ÌÂ		26322	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	H5G9qDMNYk6oX8ba17shCg	11h0U0pKEkGkAgVSsJrN9A	
+%R	26450	4510	540	1102	1	N	N	WS_Open	01	√⁄„«· ‰Â«∆ÌÂ		26328	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	AD+JAP1700ennw2/mQklqA	11h0U0pKEkGkAgVSsJrN9A	
+%R	26451	4510	540	1102	1	N	N	WS_Open	01	√⁄„«· ‰Â«∆ÌÂ		26334	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	hYrZ7mXH+ke5va6daOSTXw	11h0U0pKEkGkAgVSsJrN9A	
+%R	26452	4510	540	1102	1	N	N	WS_Open	01	√⁄„«· ‰Â«∆ÌÂ		26340	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	xPosWcgN4kSVeTyg67ibmg	11h0U0pKEkGkAgVSsJrN9A	
+%R	26453	4510	540	1102	1	N	N	WS_Open	01	√⁄„«· ‰Â«∆ÌÂ		26346	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	fqEc9vkxQEiktTTkRNCVZg	11h0U0pKEkGkAgVSsJrN9A	
+%R	26454	4510	540	1102	1	N	N	WS_Open	1	√⁄„«· ‰Â«∆ÌÂ		26352	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	BZ/IJ90WrUmaRa6JPWcULw	11h0U0pKEkGkAgVSsJrN9A	
+%R	26455	4510	540	1102	1	N	N	WS_Open	01	√⁄„«· ‰Â«∆ÌÂ		26358	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	0KmN4ZolgU+VtKxH6B2qLg	11h0U0pKEkGkAgVSsJrN9A	
+%R	26456	4510	540	1102	1	N	N	WS_Open	01	√⁄„«· ‰Â«∆ÌÂ		26364	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	S/y4XfYwJE2kQox/N+yAjw	11h0U0pKEkGkAgVSsJrN9A	
+%R	26457	4510	540	1102	1	N	N	WS_Open	01	√⁄„«· ‰Â«∆ÌÂ		26370	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	PYeE1M+Q00yFP1Xm1i/CvA	11h0U0pKEkGkAgVSsJrN9A	
+%R	26458	4510	540	1102	1	N	N	WS_Open	01	√⁄„«· ‰Â«∆ÌÂ		26376	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	4AmXhuE4fUqwCilpzJ1jjg	11h0U0pKEkGkAgVSsJrN9A	
+%R	26459	4510	540	1102	1	N	N	WS_Open	01	√⁄„«· ‰Â«∆ÌÂ		26382	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	l001Kle170SOVxjBO/LVZA	11h0U0pKEkGkAgVSsJrN9A	
+%R	26460	4510	540	1102	1	N	N	WS_Open	01	√⁄„«· ‰Â«∆ÌÂ		26388	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	2YAYZdCxAUCpQJNfeFX1TA	11h0U0pKEkGkAgVSsJrN9A	
+%R	26461	4510	540	1102	1	N	N	WS_Open	01	√⁄„«· ‰Â«∆ÌÂ		26394	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	gL4q+fXcOUea1jhPnLKkHQ	11h0U0pKEkGkAgVSsJrN9A	
+%R	26462	4510	540	1102	1	N	N	WS_Open	01	√⁄„«· ‰Â«∆ÌÂ		26400	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	kt8HEmaoNE+xMAlpcYG5zA	11h0U0pKEkGkAgVSsJrN9A	
+%R	26463	4510	540	1102	1	N	N	WS_Open	01	√⁄„«· ‰Â«∆ÌÂ		26406	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	6VAa65CzLkOUNqh5U8Jmbg	11h0U0pKEkGkAgVSsJrN9A	
+%R	26464	4510	540	1102	1	N	N	WS_Open	01	√⁄„«· ‰Â«∆ÌÂ		26412	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	gmO9+U4DEk2pwYnhfXMsew	11h0U0pKEkGkAgVSsJrN9A	
+%R	26465	4510	540	1102	1	N	N	WS_Open	01	√⁄„«· ‰Â«∆ÌÂ		26418	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	pggC8oQ25kym9zozo0Vilw	11h0U0pKEkGkAgVSsJrN9A	
+%R	26467	4510	540	1102	1	N	N	WS_Open	01	√⁄„«· ‰Â«∆ÌÂ		26430	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	fiKAjvK85EmZMJ6xUZq+7A	11h0U0pKEkGkAgVSsJrN9A	
+%R	26468	4510	540	1102	1	N	N	WS_Open	01	√⁄„«· ‰Â«∆ÌÂ		26436	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	l/Zjw49pGUWVJatm9OAXvA	11h0U0pKEkGkAgVSsJrN9A	
+%R	26566	4510	540	1600	1	N	N	WS_Open	170	„ÕÊ— N05 North		26016	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	fmjkjYuf5kWujP8FGOnGdg	QLbQuRFJIkOwvZnDzqyfLw	
+%R	26567	4510	540	2	1	N	N	WS_Open	01	√⁄„«· «·ŒÊ«“Ìﬁ		26566	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	+9RuXFMZokuZ23yfDCoTPw	dckswtNkpE+eHs+MKdFm1w	
+%R	26568	4510	540	3	1	N	N	WS_Open	02	√⁄„«· «·ﬁÊ«⁄œ		26566	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	O8uu8Eljbkq3zObSnQmRAg	obHz66bhQU6ILMe+RmPKwA	
+%R	26569	4510	540	0	1	N	N	WS_Open	3	«⁄„«· ﬁ«⁄œÂ ⁄«œÌÂ		26568	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	duhm5RX4MU6SsTHJRmlxkg	mgO4bWu3JkmvB59E0XWr6Q	
+%R	26570	4510	540	100	1	N	N	WS_Open	1	√⁄„«· ﬁ«⁄œÂ „”·ÕÂ		26568	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	Na6rudwlmkePXpjfRw9hng	YV4FuC7WZ0Ga1BuZcZ29Uw	
+%R	26571	4510	540	4	1	N	N	WS_Open	03	√⁄„«· «·«⁄„œÂ		26566	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	VqZw+3VEi0+acSyk88tF1Q	rgkeHM1RaEq6onSeCVsXQA	
+%R	26572	4510	540	5	1	N	N	WS_Open	04	√⁄„«· «·„Œœ« 		26566	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	07wA5UBMykCYbKVmU7M3Vg	unBTdbV5ok+5kbFWdG7yEg	
+%R	26573	4510	540	6	1	N	N	WS_Open	05	√⁄„«· «·—ﬂ«∆“		26566	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	y/2PS0CT/EmemJ2xSV749g	yUuDvD0O0UKPuM5QuqpuBA	
+%R	26574	4510	540	7	1	N	N	WS_Open	06	√⁄„«· «·»·«ÿ«  «·’‰œÊﬁÌÂ		26566	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	VYlJGQvhxkSyUY+h5UDu+w	zu9qh3iE+0y762eXZeJPng	
+%R	26575	4510	540	702	1	N	N	WS_Open	10	«·œÌ›—«„		26574	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	ARntQyFsTUq4zA3F+P+edw	fLjODZJHcU6buRRdpCpXzg	
+%R	26576	4510	540	802	1	N	N	WS_Open	20	«·»·«ÿÂ «·”›·ÌÂ		26574	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	UjTyXmyHtUqTv9jBPILgrw	F5St5TkMpUmi8AWID5X5yQ	
+%R	26577	4510	540	902	1	N	N	WS_Open	30	«·ÊÌ»« 		26574	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	YWg1Bx46aE+TuViYZ69AwA	3D1m0qinakuas7CAzzHcFQ	
+%R	26578	4510	540	1002	1	N	N	WS_Open	40	«·»·«ÿÂ «·⁄·ÊÌÂ		26574	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	quG47pUMwEONizAUcYD+IQ	ui5KYHeLAUCT9Fy85djdTg	
+%R	26579	4510	540	1102	1	N	N	WS_Open	01	√⁄„«· ‰Â«∆ÌÂ		26578	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	bS6PuK+OmEqHPXfeRpy9Vg	pggC8oQ25kym9zozo0Vilw	
+%R	26580	4510	540	8	1	N	N	WS_Open	07	√⁄„«· «·—’›		26566	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	1k3Jan5Q/0m6P4U0n/VR8Q	UN4wkj0yJkGXwNTMY4uutQ	
+%E
